@@ -307,10 +307,14 @@ Never commit <code>.env.local</code>, credentials, private media masters, rights
 | <code>pnpm run lint</code> | Biome checks across capsule source and scripts. |
 | <code>pnpm run typecheck</code> | TypeScript contracts. |
 | <code>pnpm run test</code> | Unit tests, architecture boundaries, historical-integrity checks, and token checks. |
-| <code>pnpm run test:e2e</code> | Browser evidence across desktop and mobile flows. |
+| <code>pnpm run test:e2e</code> | Browser evidence across desktop and mobile flows (dev server). |
+| <code>pnpm run test:e2e:production</code> | Production build + Journey HTML boundary + GSAP/ScrollTrigger boot on a built server. |
+| <code>pnpm run test:e2e:production:built</code> | Production motion Playwright only; requires an existing <code>.next</code> build. |
 | <code>pnpm run build</code> | Production build using webpack for a standalone-safe artifact. |
 | <code>pnpm run verify:production</code> | Historical-integrity verification against production-shaped data. |
 | <code>pnpm run deploy:dry-run</code> | Artifact, environment-contract, and client-secret-leak checks without production side effects. |
+
+Layer-by-layer detail, CI workflows, debug handles, and troubleshooting: [docs/testing.md](docs/testing.md).
 
 The project build intentionally uses <code>next build --webpack</code>. The standalone verifier rejects symlinks in the capsule tree; webpack produces the same route surface without Turbopack's transitive server-package symlinks.
 
@@ -339,7 +343,8 @@ For release scope and production acceptance, consult [the production authority](
 | Production authority and acceptance | [docs/production/](docs/production/) |
 | Scene-to-asset mapping | [scene manifest](docs/production/01_SCENE_MANIFEST.yaml) |
 | Narrative and transition definition | [production narrative](docs/production/08_MASTER_PRODUCTION_NARRATIVE.md) and [transition map](docs/production/03_TRANSITION_MAP.yaml) |
-| Local commands and project setup | [this README](#06--build-protocol) |
+| Testing, CI, and production motion | [docs/testing.md](docs/testing.md) |
+| Local commands and project setup | [this README §07](#code07--run-locallycode) |
 
 Contributors must preserve the historical-integrity model, use capsule-local commands, and avoid introducing a dependency on the enclosing Monorepo. Do not treat the research corpus as production truth or place historical claims in animation code.
 
