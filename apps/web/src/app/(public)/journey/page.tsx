@@ -30,6 +30,7 @@ import {
   PRODUCTION_PROLOGUE,
 } from "../../../content/production-narrative";
 import { getJourneyManifest } from "../../../content/queries";
+import { editorialPreviewEnabled } from "../../../editorial-preview-gate";
 import { OPEN_GRAPH_BASE, SITE_TITLE, TWITTER_BASE } from "../../../site";
 
 /**
@@ -115,9 +116,7 @@ export default async function JourneyPage(): Promise<ReactElement> {
   // Build produksi hanya merender scene yang sudah lolos CMS beserta rantai
   // bukti dan tata kelola medianya — kecuali `SHOW_EDITORIAL_PREVIEW=true`
   // diset eksplisit untuk lingkungan editorial.
-  const editorialPreview =
-    process.env.NODE_ENV !== "production" ||
-    process.env.SHOW_EDITORIAL_PREVIEW === "true";
+  const editorialPreview = editorialPreviewEnabled();
   const manifest = editorialPreview
     ? composeProductionJourney(publishedManifest)
     : publishedManifest;
