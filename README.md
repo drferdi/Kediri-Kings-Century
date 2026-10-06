@@ -328,6 +328,9 @@ The project build intentionally uses <code>next build --webpack</code>. The stan
 
 ### <code>09 / RELEASE POSTURE</code>
 
+> [!IMPORTANT]
+> **IP / transaction status.** Original project works remain proprietary and Copyright © 2026 Ferdi Iskandar until a duly executed assignment becomes effective. The repository is being prepared for a contemplated **Full Assignment of Economic Rights** to Pemerintah Kota Kediri. Merely publishing this repository notice does not transfer ownership. Third-party software, media, archives, services, and marks remain governed by their own rights and licenses. See [docs/legal/](docs/legal/) and [LICENSE](LICENSE).
+
 This repository is released as the **First Public Edition** of the project. It is a public reading experience, not a claim that all historical questions, media-rights work, accessibility review, or performance budgets are complete.
 
 - Historical claims may be corrected or expanded as new review and evidence become available.
@@ -349,6 +352,8 @@ For release scope and production acceptance, consult [the production authority](
 | Narrative and transition definition | [production narrative](docs/production/08_MASTER_PRODUCTION_NARRATIVE.md) and [transition map](docs/production/03_TRANSITION_MAP.yaml) |
 | Local commands and project setup | [this README §07](#07--run-locally) |
 | Test layers, ports, and production motion | [docs/testing.md](docs/testing.md) |
+| IP assignment package and handover schedules | [docs/legal/](docs/legal/) |
+| Current proprietary/pending-assignment notice | [LICENSE](LICENSE) |
 
 Contributors must preserve the historical-integrity model, use capsule-local commands, and avoid introducing a dependency on the enclosing Monorepo. Do not treat the research corpus as production truth or place historical claims in animation code.
 
