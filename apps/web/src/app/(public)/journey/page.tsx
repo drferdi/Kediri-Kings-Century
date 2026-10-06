@@ -23,6 +23,7 @@ import { ReadoutBatch } from "../../../components/journey/readout-batch";
 import { SceneOpeningAddress } from "../../../components/journey/scene-opening-address";
 import { SceneSection } from "../../../components/journey/scene-section";
 import { SiteFooter } from "../../../components/site-footer";
+import { editorialPreviewAllowed } from "../../../content/editorial-preview";
 import { JOURNEY_MILESTONES } from "../../../content/journey-milestones";
 import {
   composeProductionJourney,
@@ -113,11 +114,9 @@ export default async function JourneyPage(): Promise<ReactElement> {
   const publishedManifest = await getJourneyManifest();
   // Naskah penuh adalah ruang kerja desain lokal, bukan shortcut publikasi.
   // Build produksi hanya merender scene yang sudah lolos CMS beserta rantai
-  // bukti dan tata kelola medianya — kecuali `SHOW_EDITORIAL_PREVIEW=true`
-  // diset eksplisit untuk lingkungan editorial.
-  const editorialPreview =
-    process.env.NODE_ENV !== "production" ||
-    process.env.SHOW_EDITORIAL_PREVIEW === "true";
+  // bukti dan tata kelola medianya. Vercel Production tetap tertutup walaupun
+  // flag editorial tertinggal aktif di environment deployment.
+  const editorialPreview = editorialPreviewAllowed();
   const manifest = editorialPreview
     ? composeProductionJourney(publishedManifest)
     : publishedManifest;

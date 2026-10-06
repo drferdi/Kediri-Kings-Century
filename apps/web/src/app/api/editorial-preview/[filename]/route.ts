@@ -2,26 +2,18 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { NextResponse } from "next/server";
 
+import { editorialPreviewAllowed } from "../../../../content/editorial-preview";
 import { editorialPreviewAssetNames } from "../../../../content/production-narrative";
 
 /**
- * Media komposisi editorial hanya tersedia pada server pengembangan lokal,
- * KECUALI `SHOW_EDITORIAL_PREVIEW=true` diset eksplisit di environment —
- * satu saklar yang hanya menyala atas otorisasi Chief in-session (lihat
- * DECISIONS.md), untuk pratinjau publik tanpa merombak gerbang produksi.
- * Build produksi tetap memuat route ini; tanpa saklar, ia selalu menjawab
- * 404 dan tidak pernah mengekspos berkas yang belum melewati
- * rights/provenance CMS.
+ * Media komposisi editorial hanya tersedia bila boundary bersama mengizinkan
+ * preview. Vercel Production selalu tertutup, bahkan bila flag editorial
+ * tertinggal aktif; preview deployment non-production tetap dapat diaktifkan
+ * eksplisit. Route tetap ada di build, tetapi menjawab 404 saat boundary tutup.
  *
  * Daftar putihnya diturunkan dari naskah produksi (satu sumber kebenaran),
  * sehingga menambah slot siap tidak butuh sinkronisasi tangan di sini.
  */
-function editorialPreviewAllowed(): boolean {
-  return (
-    process.env.NODE_ENV !== "production" ||
-    process.env.SHOW_EDITORIAL_PREVIEW === "true"
-  );
-}
 
 export async function GET(
   _request: Request,
