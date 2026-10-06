@@ -2,17 +2,20 @@
 <tr>
 <td width="34%" align="center" valign="top">
 
-<img src="https://i.ibb.co.com/jZwfy0vB/drferdiikskandar.png" alt="dr. Ferdi Iskandar" width="150" />
+<img src="https://i.ibb.co.com/0pcrZTSv/Chat-GPT-Image-Sep-4-2026-06-29-17-AM-removebg-preview.png" alt="Kediri — A Living Civilization" width="170" />
 <br />
-<b>dr. Ferdi Iskandar</b><br />
-Lead Architect
-<br />
-<a href="https://ferdiiskandar.com">
-  <img src="https://img.shields.io/badge/FERDIISKANDAR.COM-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Official website" />
-</a>
-<br />
+<b>Kediri: A Century of History, Kings, and Industry</b><br />
+<small>Independent Digital Heritage Experience</small>
+<br /><br />
+<small>
+<b>Architect</b><br />
+dr. Ferdi Iskandar<br /><br />
+<b>Co-Architect</b><br />
+dr. Novia Dwi Anggraini
+</small>
+<br /><br />
 <img src="https://img.shields.io/badge/KEDIRI%20INDONESIA-22D3EE?style=flat-square" alt="Kediri Indonesia" />
-<img src="https://img.shields.io/badge/UTC%2B7-5B8CFF?style=flat-square" alt="UTC+7" />
+<img src="https://img.shields.io/badge/879%E2%86%922026-5B8CFF?style=flat-square" alt="879 to 2026" />
 
 </td>
 <td width="66%" valign="top">
@@ -20,10 +23,10 @@ Lead Architect
 SENTRA / KEDIRI — A LIVING CIVILIZATION
 
 <a href="https://kediri.sentrahai.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=33&duration=3400&pause=1500&color=EB5939&vCenter=true&width=710&height=44&lines=A+city%2C+not+a+single+point+of+origin.;Evidence+before+spectacle." alt="Kediri — A Living Civilization" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=33&duration=3400&pause=1500&color=EB5939&vCenter=true&width=710&height=44&lines=Kediri%3A+A+Century+of+History%2C+Kings%2C+and+Industry;Evidence+before+spectacle.;A+living+city+across+layers+of+time." alt="Kediri: A Century of History, Kings, and Industry" />
 </a>
 
-<b>Operational signal:</b> Kediri, Indonesia · First Public Edition · historical evidence → cinematic public reading
+<b>Operational signal:</b> Kediri, Indonesia · First Public Edition · 879 → 2026 · historical evidence → cinematic public reading
 
 <a href="https://sentrahai.com/"><b>Sentra Artificial Intelligence</b></a><br />
 An independent digital-heritage experience that separates historical evidence, editorial interpretation, public presentation, and human historical authority.
@@ -44,17 +47,92 @@ An independent digital-heritage experience that separates historical evidence, e
 </tr>
 </table>
 
+# Kediri: A Century of History, Kings, and Industry
+
+**Kediri — A Living Civilization** is a digital historical institution presented as a cinematic web experience. Its subject is not a single kingdom, a single city administration, or a single commemorative date. It follows the layered identity of Kediri across inscriptions, names, kingdoms, literature, folklore, colonial administration, infrastructure, war, republican government, industry, transport, and the living city of 2026.
+
+The narrative uses **27 scenes** organized into a Prologue, nine historical chapters, and a Finale. The chronology begins from the **27 July 879** date used as Kediri's commemorative historical anchor, while the experience remains explicit that this is not the uninterrupted birth date of one unchanged political institution. The project instead treats Kediri as a place repeatedly formed, renamed, governed, remembered, rebuilt, industrialized, and reconnected across time.
+
+The public experience has four complementary reading modes: **Journey** for continuous cinematic narrative, **Explore** for chronological and thematic navigation, **Archive** for structured historical records, and **Sources** for the evidence path behind public claims. The underlying editorial system separates evidence from interpretation so that a strong visual scene cannot silently upgrade an uncertain historical proposition into fact.
+
+> [!IMPORTANT]
+> **Independent-project boundary.** This project is dedicated to Kediri and its people, but it is not an official statement, policy, publication, or communication channel of Pemerintah Kota Kediri unless separately authorized in writing.
+
+---
+
+## Narrative Chapters
+
+<table width="100%">
+<tr>
+<th align="left">Chapter</th>
+<th align="left">Narrative scope</th>
+</tr>
+<tr>
+<td valign="top"><b><code>PROLOGUE · 2026</code></b><br /><small>Scene 00 · Before We Go Back</small></td>
+<td valign="top"><small>The journey begins in the living city rather than in antiquity. Streets, markets, bridges, daily life, and the Brantas establish Kediri as a present-tense place before the timeline moves backward. The chapter introduces the central question—when does a city begin to become itself?—and defines 27 July 879 as a commemorative entry point rather than the birth of an unchanged modern municipality.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER I · THE LAND REMEMBERS</code></b><br /><small>Scenes 01–04 · 879–1042</small></td>
+<td valign="top"><small>The first chapter establishes the oldest layers of memory: the 879 historical mark, the appearance of the name Kadhiri in 921, a 1015 continuity claim kept under Research Hold, and the 1042 division associated with Panjalu and Janggala. It also establishes a core editorial method: political history and later tradition can coexist, but they must not be presented as the same evidence class.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER II · PANJALU RISES</code></b><br /><small>Scenes 05–08 · Daha, Jayabhaya, literature, Panji</small></td>
+<td valign="top"><small>Kediri emerges as a center of political and cultural gravity. Daha is presented through the evidence that survives rather than through invented reconstruction; the phrase Panjalu Jayati captures royal confidence; Bharatayuddha demonstrates the endurance of literary power; and the Panji tradition shows how stories rooted in the Kediri–Daha–Janggala world could travel far beyond the political borders that produced them.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER III · THE THRONE BREAKS</code></b><br /><small>Scenes 09–11 · 1222–1293</small></td>
+<td valign="top"><small>This chapter follows the loss, brief return, and final end of Kediri's sovereign royal power. The 1222 Battle of Ganter marks the shift of political primacy toward Tumapel and later Singhasari; Jayakatwang's 1292 return to Daha briefly restores Kediri's political center; and the upheavals of 1293 lead into the rise of Majapahit. The governing idea is simple: political sovereignty can end without erasing a place, a name, or a cultural memory.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER IV · AFTER THE KINGS</code></b><br /><small>Scenes 12–13 · memory, prophecy, folklore</small></td>
+<td valign="top"><small>After royal sovereignty, Kediri continues through memory. The historical Jayabhaya is separated from later prophetic traditions attributed to Jayabaya, while the Shadow Archive treats Calon Arang, Lembu Suro, Kelud traditions, curses, and urban legends as cultural evidence rather than supernatural proof. The chapter makes folklore legible as a record of meaning-making without relabeling it as verified history.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER V · EMPIRES CROSS THE BRANTAS</code></b><br /><small>Scene 14 · 1678</small></td>
+<td valign="top"><small>The Brantas returns as a strategic actor during the Trunajaya-era conflict. The river that had already served as remembered boundary and connective geography becomes a military obstacle and defensive line. The chapter emphasizes continuity of place across changing political orders: the water remains while the powers fighting around it change.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER VI · IRON, SUGAR & THE MODERN CITY</code></b><br /><small>Scenes 15–19 · industry, bridge, municipality, people</small></td>
+<td valign="top"><small>The narrative turns from courts to systems. Sugar reorganizes land, labor, roads, rail, storage, and trade; the 1869 bridge places iron across the Brantas and changes mobility; the 1906 colonial municipality formalizes a modern administrative city while preserving the contradiction of colonial inequality; a 1912 bridge-modification scene retains explicit archival uncertainty; and the final scene shifts attention from infrastructure to the ordinary people whose work, family life, markets, schools, faith, and movement actually make a city live.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER VII · OCCUPATION, REVOLUTION, REPUBLIC</code></b><br /><small>Scenes 20–22 · 1942–1950</small></td>
+<td valign="top"><small>Global war reaches Kediri through the Japanese occupation, altering government, transport, production, and daily life. The revolutionary period then explores how civilian and industrial infrastructure may be repurposed by conflict, while the repository keeps the specific 1947–1948 weapons-production claim conditional until stronger evidence exists. The 1950 chapter places city government inside the Republic and explicitly distinguishes this layer from both the 879 commemorative anchor and the 1906 colonial municipality.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER VIII · THE INDUSTRIAL CITY</code></b><br /><small>Scenes 23–24 · 1958–1990+</small></td>
+<td valign="top"><small>Post-independence Kediri gains a new center of gravity through large-scale industry. The chapter begins with a business growing from a limited physical footprint in 1958 and follows the broader transformation of employment, factories, neighborhoods, transport, production, and national capital-market connection. It presents industrial strength together with the strategic question created by concentration: prosperity and dependency can grow from the same economic root.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>CHAPTER IX · THE CITY CONNECTS</code></b><br /><small>Scenes 25–26 · bridges to runway</small></td>
+<td valign="top"><small>Two bridges place two technological eras in one landscape: infrastructure once experienced as the future becomes heritage while newer crossings inherit its connective role. The sequence then moves from river, road, bridge, and rail toward Dhoho and air connectivity in 2024–2026. The technology changes, but the historical drive remains recognizable: Kediri continually reorganizes itself around the need to connect.</small></td>
+</tr>
+<tr>
+<td valign="top"><b><code>FINALE · THE CITY CONTINUES</code></b><br /><small>2026</small></td>
+<td valign="top"><small>The experience returns to the present city and reframes what the audience has already seen. From the 879 commemorative anchor to 2026 lies 1,147 years—not 1,147 years of one uninterrupted government, but 1,147 years of layered memory from the date Kediri uses to mark its long historical journey. Kingdoms, administrations, bridges, industries, and generations change; the city continues.</small></td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/27-SCENES-5B8CFF?style=flat-square" alt="27 scenes" />
+  <img src="https://img.shields.io/badge/9-HISTORICAL%20CHAPTERS-8B5CF6?style=flat-square" alt="9 historical chapters" />
+  <img src="https://img.shields.io/badge/879%E2%86%922026-1%2C147%20YEARS-22D3EE?style=flat-square" alt="879 to 2026" />
+  <img src="https://img.shields.io/badge/EDITORIAL-EVIDENCE%20FIRST-F59E0B?style=flat-square" alt="Evidence first" />
+</p>
+
 ---
 
 ### <code>01 / ORIGIN SIGNAL</code>
 
 **Kediri — A Living Civilization** is an independent historical web experience spanning the record associated with Kediri from the 879 date commemorated by the city through the present day. It is designed to make a long, layered civic history readable without collapsing multiple eras, polities, traditions, and interpretations into one artificial continuous identity.
 
+The product is intentionally broader than a timeline. It combines a historical evidence model, an editorial system, public narrative surfaces, archive/source navigation, cinematic motion, rights-aware media handling, production verification, and explicit human review. The architecture treats historical meaning as domain data rather than animation copy, allowing factual correction without rewriting visual choreography.
+
 The public experience exposes several reading paths. **Journey** provides a continuous cinematic narrative; **Explore** provides structured chronological and thematic navigation; **Archive** exposes records for events, people, places, objects, claims, and sources; and **Sources** provides the evidence-level route behind public historical statements.
 
 The repository deliberately separates preserved research input from public truth. Historical claims are expected to resolve through an evidence model and human review, while uncertainty, tradition, folklore, interpretation, and verified records remain distinguishable instead of being flattened for dramatic effect.
 
-This repository contains the application, verification tooling, local infrastructure, production documentation, research boundaries, and legal/IP context required to operate the product as a standalone project.
+This repository contains the application, verification tooling, local infrastructure, production documentation, research boundaries, media provenance controls, and legal/IP context required to operate the product as a standalone project.
 
 -- https://ferdiiskandar.com
 
@@ -68,23 +146,20 @@ This repository contains the application, verification tooling, local infrastruc
 <tr>
 <td width="33%" valign="top">
 
-<b><code>LAYER I · HISTORICAL CANON</code></b>
-
-Claims, chronology, source relationships, evidence classes, rights, representation rules, and correction boundaries.
-
-</td>
-<td width="33%" valign="top">
-
-<b><code>LAYER II · EDITORIAL EXPERIENCE</code></b>
-
-Narrative beats, scene composition, semantic copy, cinematic choreography, transition rules, and visual acceptance.
+<b><code>LAYER I · HISTORICAL CANON</code></b><br />
+<small>Claims, chronology, source relationships, evidence classes, rights, representation rules, uncertainty, research holds, and correction boundaries.</small>
 
 </td>
 <td width="33%" valign="top">
 
-<b><code>LAYER III · PUBLIC READING</code></b>
+<b><code>LAYER II · EDITORIAL EXPERIENCE</code></b><br />
+<small>Narrative beats, scene composition, semantic copy, cinematic choreography, transition rules, media provenance, and visual acceptance.</small>
 
-Journey, Explore, Archive, Sources, semantic HTML, responsive motion, and evidence affordances presented to the reader.
+</td>
+<td width="33%" valign="top">
+
+<b><code>LAYER III · PUBLIC READING</code></b><br />
+<small>Journey, Explore, Archive, Sources, semantic HTML, responsive motion, evidence affordances, and reader-facing historical context.</small>
 
 </td>
 </tr>
@@ -103,48 +178,42 @@ Journey, Explore, Archive, Sources, semantic HTML, responsive motion, and eviden
 <tr>
 <td width="50%" valign="top">
 
-<b><code>HISTORY IS NOT ANIMATION DATA</code></b>
-
-Historical truth, editorial narrative, experience state, and motion are separate concerns. A claim can be corrected without rewriting choreography; motion can change without rewriting historical truth.
+<b><code>HISTORY IS NOT ANIMATION DATA</code></b><br />
+<small>Historical truth, editorial narrative, experience state, and motion are separate concerns. A claim can be corrected without rewriting choreography; motion can change without rewriting historical truth.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>UNCERTAINTY REMAINS VISIBLE</code></b>
-
-Primary records, historical facts, scholarly interpretation, tradition, folklore, and modern verified data are not interchangeable evidence classes.
+<b><code>UNCERTAINTY REMAINS VISIBLE</code></b><br />
+<small>Primary records, historical facts, scholarly interpretation, tradition, folklore, and modern verified data are not interchangeable evidence classes. Research Hold and conditional status must remain visible when evidence is incomplete.</small>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<b><code>NO SOURCELESS PUBLIC CLAIMS</code></b>
-
-The public evidence path is modeled around <code>EvidenceClaim → EvidenceLink → Source</code>, with publication gated by historical review and integrity checks.
+<b><code>NO SOURCELESS PUBLIC CLAIMS</code></b><br />
+<small>The public evidence path is modeled around <code>EvidenceClaim → EvidenceLink → Source</code>, with publication gated by historical review and integrity checks.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>SEMANTIC FIRST, MOTION SECOND</code></b>
-
-The public narrative remains readable as server-rendered semantic HTML. GSAP enriches the experience; it does not own the historical facts.
+<b><code>SEMANTIC FIRST, MOTION SECOND</code></b><br />
+<small>The public narrative remains readable as server-rendered semantic HTML. GSAP enriches the experience; it does not own the historical facts.</small>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<b><code>ONE PROBLEM, THEN DEPTH</code></b>
-
-The product solves one core problem deeply: make Kediri's layered historical record publicly explorable without obscuring provenance or uncertainty.
+<b><code>ONE PROBLEM, THEN DEPTH</code></b><br />
+<small>The product solves one core problem deeply: make Kediri's layered historical record publicly explorable without obscuring provenance, disagreement, uncertainty, or correction paths.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>NO MAGIC WITHOUT AUDIT</code></b>
-
-A passing visual result is insufficient. Claims, media rights, module boundaries, build behavior, production HTML, and motion behavior all have explicit verification paths.
+<b><code>NO MAGIC WITHOUT AUDIT</code></b><br />
+<small>A passing visual result is insufficient. Claims, media rights, module boundaries, build behavior, production HTML, production-shaped content, and motion behavior all have explicit verification paths.</small>
 
 </td>
 </tr>
@@ -166,6 +235,7 @@ A passing visual result is insufficient. Claims, media rights, module boundaries
 <summary><b><code>LIVE TOPOLOGY // SYSTEM RELATION MAP</code></b></summary>
 
 ~~~mermaid
+%%{init: {'theme':'base'}}%%
 flowchart TB
   REVIEWER["HUMAN HISTORICAL REVIEWER"]
   CMS["PAYLOAD ADMIN / EDITORIAL INPUT"]
@@ -186,6 +256,22 @@ flowchart TB
   SERVER --> PUBLIC
   PUBLIC --> READER
   READER -. correction / scrutiny .-> REVIEWER
+
+  classDef human fill:#FDE68A,stroke:#D97706,color:#111827;
+  classDef editorial fill:#BFDBFE,stroke:#2563EB,color:#111827;
+  classDef model fill:#DDD6FE,stroke:#7C3AED,color:#111827;
+  classDef data fill:#A7F3D0,stroke:#059669,color:#111827;
+  classDef gate fill:#FBCFE8,stroke:#DB2777,color:#111827;
+  classDef runtime fill:#C7D2FE,stroke:#4F46E5,color:#111827;
+  classDef output fill:#FED7AA,stroke:#EA580C,color:#111827;
+
+  class REVIEWER human;
+  class CMS editorial;
+  class MODEL model;
+  class DB,MEDIA data;
+  class GATE gate;
+  class SERVER runtime;
+  class PUBLIC,READER output;
 ~~~
 
 </details>
@@ -195,10 +281,9 @@ flowchart TB
 <td width="50%" valign="top">
 
 <b><code>01 · HISTORICAL DOMAIN</code></b><br />
-<b>Chronology and epistemic structure</b>
-
-Defines evidence classes, confidence, historical relationships, rights, and representation policy without depending on React, Next.js, Payload, GSAP, or database implementation.
-
+<b>Chronology and epistemic structure</b><br />
+<small>Defines evidence classes, confidence, historical relationships, rights, and representation policy without depending on React, Next.js, Payload, GSAP, or database implementation.</small>
+<br /><br />
 <img src="https://img.shields.io/badge/FUNCTION-DOMAIN%20TRUTH-5B8CFF?style=flat-square" alt="Domain truth" /><br />
 <sub>Boundary enforced by architecture tests.</sub>
 
@@ -206,10 +291,9 @@ Defines evidence classes, confidence, historical relationships, rights, and repr
 <td width="50%" valign="top">
 
 <b><code>02 · CONTENT VALIDATION</code></b><br />
-<b>Publication integrity gate</b>
-
-Validates claims, evidence links, scenes, media rights, historical integrity, and public content contracts before reviewed material becomes production-shaped output.
-
+<b>Publication integrity gate</b><br />
+<small>Validates claims, evidence links, scenes, media rights, historical integrity, and public content contracts before reviewed material becomes production-shaped output.</small>
+<br /><br />
 <img src="https://img.shields.io/badge/FUNCTION-VALIDATION-22D3EE?style=flat-square" alt="Validation" /><br />
 <sub>Designed to remain independent from presentation and CMS-specific coupling.</sub>
 
@@ -219,20 +303,18 @@ Validates claims, evidence links, scenes, media rights, historical integrity, an
 <td width="50%" valign="top">
 
 <b><code>03 · DESIGN SYSTEM</code></b><br />
-<b>Public presentation primitives</b>
-
-Owns the local token snapshot, typography, layout primitives, and evidence presentation without owning Kediri-specific historical entities.
-
+<b>Public presentation primitives</b><br />
+<small>Owns the local token snapshot, typography, layout primitives, and evidence presentation without owning Kediri-specific historical entities.</small>
+<br /><br />
 <img src="https://img.shields.io/badge/FUNCTION-PRESENTATION-8B5CF6?style=flat-square" alt="Presentation" />
 
 </td>
 <td width="50%" valign="top">
 
 <b><code>04 · MOTION</code></b><br />
-<b>Cinematic choreography</b>
-
-Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive choreography, reduced-motion behavior, and cleanup without owning historical truth.
-
+<b>Cinematic choreography</b><br />
+<small>Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive choreography, reduced-motion behavior, and cleanup without owning historical truth.</small>
+<br /><br />
 <img src="https://img.shields.io/badge/FUNCTION-MOTION-14B8A6?style=flat-square" alt="Motion" />
 
 </td>
@@ -247,35 +329,41 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 <tr>
 <td width="33%" valign="top">
 
-<b><code>CONTENT & EVIDENCE</code></b>
-
-- historical-domain module
-- content-validation module
-- Payload collections and editorial surfaces
-- evidence classes and provenance
-- reviewed production narrative
-
-</td>
-<td width="33%" valign="top">
-
-<b><code>EXPERIENCE & MOTION</code></b>
-
-- Next.js App Router
-- React 19
-- semantic server-rendered HTML
-- GSAP + ScrollTrigger
-- responsive and reduced-motion paths
+<b><code>CONTENT & EVIDENCE</code></b><br />
+<small>
+• historical-domain module<br />
+• content-validation module<br />
+• Payload collections and editorial surfaces<br />
+• evidence classes and provenance<br />
+• reviewed production narrative<br />
+• research-hold and conditional-claim handling
+</small>
 
 </td>
 <td width="33%" valign="top">
 
-<b><code>DATA & DELIVERY</code></b>
+<b><code>EXPERIENCE & MOTION</code></b><br />
+<small>
+• Next.js App Router<br />
+• React 19<br />
+• semantic server-rendered HTML<br />
+• GSAP + ScrollTrigger + ScrollSmoother<br />
+• responsive choreography<br />
+• reduced-motion path and cleanup
+</small>
 
-- PostgreSQL 18
-- S3-compatible object storage
-- MinIO for local storage
-- Vercel public delivery
-- Playwright production canary path
+</td>
+<td width="33%" valign="top">
+
+<b><code>DATA & DELIVERY</code></b><br />
+<small>
+• PostgreSQL 18<br />
+• S3-compatible object storage<br />
+• MinIO for local storage<br />
+• public/private media separation<br />
+• Vercel public delivery context<br />
+• Playwright production canary path
+</small>
 
 </td>
 </tr>
@@ -285,6 +373,7 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 <summary><b><code>RUNTIME TOPOLOGY // CONTROL & DATA PLANE</code></b></summary>
 
 ~~~mermaid
+%%{init: {'theme':'base'}}%%
 flowchart TB
   REVIEWER["HUMAN REVIEW / APPROVAL"]
   ADMIN["PAYLOAD ADMIN"]
@@ -308,6 +397,24 @@ flowchart TB
   MOTION --> READER
   VERIFY -. checks .-> VALIDATE
   VERIFY -. checks .-> NEXT
+
+  classDef human fill:#FDE68A,stroke:#D97706,color:#111827;
+  classDef admin fill:#BFDBFE,stroke:#2563EB,color:#111827;
+  classDef gate fill:#FBCFE8,stroke:#DB2777,color:#111827;
+  classDef data fill:#A7F3D0,stroke:#059669,color:#111827;
+  classDef runtime fill:#DDD6FE,stroke:#7C3AED,color:#111827;
+  classDef render fill:#C7D2FE,stroke:#4F46E5,color:#111827;
+  classDef output fill:#FED7AA,stroke:#EA580C,color:#111827;
+  classDef verify fill:#FECACA,stroke:#DC2626,color:#111827;
+
+  class REVIEWER human;
+  class ADMIN admin;
+  class VALIDATE gate;
+  class DB,S3 data;
+  class NEXT runtime;
+  class HTML,MOTION render;
+  class READER output;
+  class VERIFY verify;
 ~~~
 
 </details>
@@ -321,6 +428,7 @@ flowchart TB
 ### <code>05 / SIGNAL PATH</code>
 
 ~~~mermaid
+%%{init: {'theme':'base'}}%%
 flowchart TB
   CORPUS["PRESERVED RESEARCH CORPUS"]
   DRAFT["DRAFT EDITORIAL RECORD"]
@@ -341,9 +449,27 @@ flowchart TB
   DTO --> OUTPUT
   GATE -. insufficient evidence / rights .-> ESC
   REVIEW -. not approved .-> ESC
+
+  classDef corpus fill:#C7D2FE,stroke:#4F46E5,color:#111827;
+  classDef draft fill:#BFDBFE,stroke:#2563EB,color:#111827;
+  classDef evidence fill:#DDD6FE,stroke:#7C3AED,color:#111827;
+  classDef gate fill:#FBCFE8,stroke:#DB2777,color:#111827;
+  classDef human fill:#FDE68A,stroke:#D97706,color:#111827;
+  classDef output fill:#A7F3D0,stroke:#059669,color:#111827;
+  classDef esc fill:#FECACA,stroke:#DC2626,color:#111827;
+
+  class CORPUS corpus;
+  class DRAFT draft;
+  class CLAIM,LINK evidence;
+  class GATE gate;
+  class REVIEW human;
+  class DTO,OUTPUT output;
+  class ESC esc;
 ~~~
 
 The repository's production authority makes the human boundary explicit: implementation agents may mark cinematic work <code>READY_FOR_REVIEW</code>, but they may not mark it <code>APPROVED</code>. Final approval belongs to the Chief/reviewer. Historical text carrying factual or epistemic meaning must remain semantic DOM content rather than being baked into raster assets, and interpretive/generated imagery may not impersonate documentary evidence.
+
+The same rule applies to uncertainty. A Research Hold is not a decorative label; it is a publication-state boundary. Conditional scenes may remain in the narrative as research objects, but their unresolved details cannot be silently promoted into definitive archival facts.
 
 ---
 
@@ -353,48 +479,42 @@ The repository's production authority makes the human boundary explicit: impleme
 <tr>
 <td width="50%" valign="top">
 
-<b><code>FRONTEND</code></b>
-
-Next.js 16 App Router with React 19. Public reading surfaces are server-rendered semantic HTML, with selected client-side GSAP choreography layered on top. The Journey does not require motion to carry historical meaning.
+<b><code>FRONTEND</code></b><br />
+<small>Next.js 16 App Router with React 19. Public reading surfaces are server-rendered semantic HTML, with selected client-side GSAP choreography layered on top. The Journey does not require motion to carry historical meaning.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>BACKEND</code></b>
-
-Payload CMS 3 is integrated into the Next.js application with PostgreSQL storage. Repository scripts expose Payload migration, seed, type generation, and production-integrity verification commands.
+<b><code>BACKEND</code></b><br />
+<small>Payload CMS 3 is integrated into the Next.js application with PostgreSQL storage. Repository scripts expose Payload migration, seed, type generation, and production-integrity verification commands.</small>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<b><code>AI RUNTIME</code></b>
-
-No AI/ML runtime is declared in the application package manifests. AI-generated or reconstructed historical imagery, where used as content, is governed as interpretive media and must not be presented as authenticated historical evidence.
+<b><code>AI RUNTIME</code></b><br />
+<small>No AI/ML runtime is declared in the application package manifests. AI-generated or reconstructed historical imagery, where used as content, is governed as interpretive media and must not be presented as authenticated historical evidence.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>DATA / DOCUMENT / INTEGRATION</code></b>
-
-PostgreSQL stores CMS-backed content. S3-compatible object storage separates public derivatives from private masters. The preserved research corpus is input material, not auto-published production truth.
+<b><code>DATA / DOCUMENT / INTEGRATION</code></b><br />
+<small>PostgreSQL stores CMS-backed content. S3-compatible object storage separates public derivatives from private masters. The preserved research corpus is input material, not auto-published production truth.</small>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<b><code>DATA & SECURITY</code></b>
-
-Environment values are defined through a variable-only <code>.env.example</code>. Secrets, private media masters, and rights documents are not intended for source control. Local clone execution uses a repository-password deterrent; the repository explicitly states that this is not encryption or DRM.
+<b><code>DATA & SECURITY</code></b><br />
+<small>Environment values are defined through a variable-only <code>.env.example</code>. Secrets, private media masters, and rights documents are not intended for source control. Local clone execution uses a repository-password deterrent; the repository explicitly states that this is not encryption or DRM.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>DEPLOYMENT</code></b>
-
-The public product is configured around <code>kediri.sentrahai.com</code> and Vercel production delivery. Production credentials and deployment configuration are not stored in this repository. A production motion canary is defined separately from the main manual CI workflow.
+<b><code>DEPLOYMENT</code></b><br />
+<small>The public product is configured around <code>kediri.sentrahai.com</code> and Vercel production delivery. Production credentials and deployment configuration are not stored in this repository. A production motion canary is defined separately from the main manual CI workflow.</small>
 
 </td>
 </tr>
@@ -404,6 +524,7 @@ The public product is configured around <code>kediri.sentrahai.com</code> and Ve
 <summary><b><code>PROMOTION STATE // DEVELOPMENT → PUBLIC PRODUCTION</code></b></summary>
 
 ~~~mermaid
+%%{init: {'theme':'base'}}%%
 flowchart TB
   DEV["DEVELOPMENT"]
   STATIC["LINT · TYPECHECK · UNIT TESTS"]
@@ -422,6 +543,22 @@ flowchart TB
   REVIEW --> PROD
   PROD -. failure / disputed signal .-> ROLLBACK
   ROLLBACK --> DEV
+
+  classDef dev fill:#BFDBFE,stroke:#2563EB,color:#111827;
+  classDef verify fill:#A7F3D0,stroke:#059669,color:#111827;
+  classDef history fill:#DDD6FE,stroke:#7C3AED,color:#111827;
+  classDef browser fill:#C7D2FE,stroke:#4F46E5,color:#111827;
+  classDef review fill:#FDE68A,stroke:#D97706,color:#111827;
+  classDef prod fill:#FED7AA,stroke:#EA580C,color:#111827;
+  classDef roll fill:#FECACA,stroke:#DC2626,color:#111827;
+
+  class DEV dev;
+  class STATIC verify;
+  class HIST history;
+  class BUILD,BROWSER browser;
+  class REVIEW review;
+  class PROD prod;
+  class ROLLBACK roll;
 ~~~
 
 </details>
@@ -468,6 +605,31 @@ pnpm run test:e2e:production
 > [!NOTE]
 > These commands are defined by the current repository manifests and contract. This README revision does not claim a fresh green run unless a verification run is explicitly executed and recorded.
 
+#### Documentation map
+
+<table width="100%">
+<tr>
+<td width="34%"><b>Production authority</b></td>
+<td><small><a href="docs/production/00_IMPLEMENTATION_AUTHORITY.md">docs/production/00_IMPLEMENTATION_AUTHORITY.md</a> — implementation precedence, visual integrity, GSAP rules, and human approval boundary.</small></td>
+</tr>
+<tr>
+<td><b>Scene manifest</b></td>
+<td><small><a href="docs/production/01_SCENE_MANIFEST.yaml">docs/production/01_SCENE_MANIFEST.yaml</a> — scene-to-asset mapping, evidence class, crop status, conflicts, and review readiness.</small></td>
+</tr>
+<tr>
+<td><b>Master narrative</b></td>
+<td><small><a href="docs/production/08_MASTER_PRODUCTION_NARRATIVE.md">docs/production/08_MASTER_PRODUCTION_NARRATIVE.md</a> — canonical narrative meaning and scene order.</small></td>
+</tr>
+<tr>
+<td><b>Testing</b></td>
+<td><small><a href="docs/testing.md">docs/testing.md</a> — Vitest, Playwright, production-motion, ports, and verification layers.</small></td>
+</tr>
+<tr>
+<td><b>Legal / IP</b></td>
+<td><small><a href="docs/legal/">docs/legal/</a> and <a href="LICENSE">LICENSE</a> — proprietary status, contemplated economic-rights assignment, third-party materials, and handover context.</small></td>
+</tr>
+</table>
+
 #### License & contribution boundary
 
 The repository is **proprietary / UNLICENSED**. Public access to the deployed site does not grant permission to reproduce, redistribute, sublicense, commercialize, or publish the source or proprietary assets. Contributions must preserve historical-integrity rules, local module boundaries, source provenance, rights boundaries, and standalone operation.
@@ -492,23 +654,23 @@ No expansion without one solved problem first.
 </tr>
 <tr>
 <td><b>What specific problem does this solve?</b></td>
-<td>Make Kediri's layered historical record publicly readable and cinematic while preserving provenance, evidence classes, uncertainty, and correction paths.</td>
+<td><small>Make Kediri's layered historical record publicly readable and cinematic while preserving provenance, evidence classes, uncertainty, research holds, rights boundaries, and correction paths.</small></td>
 </tr>
 <tr>
 <td><b>Who is the human reviewer or accountable operator?</b></td>
-<td>Chief / designated historical reviewer. Production authority reserves final approval to the human reviewer.</td>
+<td><small>Chief / designated historical reviewer. Production authority reserves final approval to the human reviewer. Architect: dr. Ferdi Iskandar. Co-Architect: dr. Novia Dwi Anggraini.</small></td>
 </tr>
 <tr>
 <td><b>What is outside the scope?</b></td>
-<td>Institutional endorsement, automatic historical certification, source-less certainty, rights-cleared status for every external asset, or transfer of ownership merely by repository publication.</td>
+<td><small>Institutional endorsement, automatic historical certification, source-less certainty, rights-cleared status for every external asset, or transfer of ownership merely by repository publication.</small></td>
 </tr>
 <tr>
 <td><b>What can fail?</b></td>
-<td>Historical-integrity checks, evidence linkage, rights boundaries, CMS data readiness, build output, client motion, reduced-motion behavior, deployment configuration, or human review.</td>
+<td><small>Historical-integrity checks, evidence linkage, rights boundaries, CMS data readiness, media provenance, build output, client motion, reduced-motion behavior, deployment configuration, or human review.</small></td>
 </tr>
 <tr>
 <td><b>How is it verified?</b></td>
-<td>Biome, TypeScript, Vitest, architecture-boundary tests, historical-integrity checks, webpack production build, static journey checks, Payload verification, Playwright dev/production evidence, and deploy dry-run.</td>
+<td><small>Biome, TypeScript, Vitest, architecture-boundary tests, historical-integrity tests, webpack production build, static journey checks, Payload verification, Playwright dev/production evidence, and deploy dry-run.</small></td>
 </tr>
 </table>
 
@@ -542,17 +704,17 @@ The repository is expected to remain explicit about architecture contracts, revi
 <td width="50%" valign="top">
 
 <img src="https://img.shields.io/badge/DIVISION-SENTRA%20PRODUCT%20DOMAIN-22D3EE?style=flat-square" alt="Sentra Product Domain" />
-
+<br />
 <b><code>SENTRA ARTIFICIAL INTELLIGENCE · PRODUCT DOMAIN</code></b><br />
-<sub>The repository contract classifies this product under <code>product/kediri-history</code>. Its operating domain is cultural heritage and public historical experience.</sub>
+<sub>The repository contract classifies this product under <code>product/kediri-history</code>. Its operating domain is cultural heritage, historical publishing, and public digital experience.</sub>
 
 </td>
 <td width="50%" valign="top">
 
 <img src="https://img.shields.io/badge/PRODUCT-KEDIRI%20HISTORY-8B5CF6?style=flat-square" alt="Kediri History" />
-
+<br />
 <b><code>KEDIRI — A LIVING CIVILIZATION</code></b><br />
-<sub>A cinematic digital-heritage product combining historical evidence, editorial review, Payload-backed content, semantic public reading, and motion choreography.</sub>
+<sub>A cinematic digital-heritage product combining historical evidence, editorial review, Payload-backed content, semantic public reading, archive navigation, source traceability, and motion choreography.</sub>
 
 </td>
 </tr>
@@ -620,7 +782,7 @@ The repository also records a contemplated **Full Assignment of Economic Rights*
 <td width="50%" valign="top">
 
 <b><code>GSAP 3 · ScrollTrigger · ScrollSmoother</code></b><br />
-<small>Journey choreography, responsive motion, production motion instrumentation.</small>
+<small>Journey choreography, responsive motion, reduced-motion behavior, and production motion instrumentation.</small>
 
 </td>
 <td width="50%" valign="top">
@@ -728,7 +890,7 @@ The repository also records a contemplated **Full Assignment of Economic Rights*
 </table>
 
 <p align="center">
-  <b>Architected and built by dr. Ferdi Iskandar (the Gaffer) · Sentra Artificial Intelligence.</b><br />
+  <b>Architected by dr. Ferdi Iskandar · Co-Architected by dr. Novia Dwi Anggraini · Sentra Artificial Intelligence.</b><br />
   Kediri — A Living Civilization · evidence remains open to review, correction, and stronger sources.<br />
   <sub><code>// the surface is documentation. the depth is running.</code></sub>
 </p>
