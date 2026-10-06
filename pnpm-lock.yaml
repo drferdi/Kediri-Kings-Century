@@ -15,8 +15,8 @@ importers:
   apps/web:
     dependencies:
       '@faceless-ui/modal':
-        specifier: 3.0.0
-        version: 3.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: 3.0.1
+        version: 3.0.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@faceless-ui/scroll-info':
         specifier: 2.0.0
         version: 2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -31,7 +31,7 @@ importers:
         version: 3.88.0(@types/react@19.2.7)(graphql@16.14.2)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
       '@payloadcms/richtext-lexical':
         specifier: 3.88.0
-        version: 3.88.0(@faceless-ui/modal@3.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@faceless-ui/scroll-info@2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@payloadcms/next@3.88.0(@types/react@19.2.7)(graphql@16.14.2)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2))(@types/react@19.2.7)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)(yjs@13.6.32)
+        version: 3.88.0(@faceless-ui/modal@3.0.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@faceless-ui/scroll-info@2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@payloadcms/next@3.88.0(@types/react@19.2.7)(graphql@16.14.2)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2))(@types/react@19.2.7)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)(yjs@13.6.32)
       '@payloadcms/storage-s3':
         specifier: 3.88.0
         version: 3.88.0(@types/react@19.2.7)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)
@@ -807,6 +807,12 @@ packages:
 
   '@faceless-ui/modal@3.0.0':
     resolution: {integrity: sha512-o3oEFsot99EQ8RJc1kL3s/nNMHX+y+WMXVzSSmca9L0l2MR6ez2QM1z1yIelJX93jqkLXQ9tW+R9tmsYa+O4Qg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+
+  '@faceless-ui/modal@3.0.1':
+    resolution: {integrity: sha512-fRPQPXZlND6nw4ubwOmHns9kwemcrrebh2PioJ1w8T/XuRO9s0QvYSzj7y0GI/ZwD8Zl0VKSMgcQSAigw6ekrg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -3743,6 +3749,14 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
       react-transition-group: 4.4.5(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
 
+  '@faceless-ui/modal@3.0.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+    dependencies:
+      body-scroll-lock: 4.0.0-beta.0
+      focus-trap: 7.5.4
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
+      react-transition-group: 4.4.5(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+
   '@faceless-ui/scroll-info@2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       react: 19.2.8
@@ -4252,9 +4266,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@payloadcms/richtext-lexical@3.88.0(@faceless-ui/modal@3.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@faceless-ui/scroll-info@2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@payloadcms/next@3.88.0(@types/react@19.2.7)(graphql@16.14.2)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2))(@types/react@19.2.7)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)(yjs@13.6.32)':
+  '@payloadcms/richtext-lexical@3.88.0(@faceless-ui/modal@3.0.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@faceless-ui/scroll-info@2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(@payloadcms/next@3.88.0(@types/react@19.2.7)(graphql@16.14.2)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2))(@types/react@19.2.7)(monaco-editor@0.56.0)(next@16.3.6(@playwright/test@1.62.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sass@1.77.4))(payload@3.89.0(graphql@16.14.2)(typescript@7.0.2))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(typescript@7.0.2)(yjs@13.6.32)':
     dependencies:
-      '@faceless-ui/modal': 3.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@faceless-ui/modal': 3.0.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@faceless-ui/scroll-info': 2.0.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       '@lexical/clipboard': 0.41.0
       '@lexical/headless': 0.41.0
