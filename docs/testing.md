@@ -6,7 +6,7 @@ This capsule separates **fast offline checks** (Vitest, token script), **dev-ser
 
 | Command | Layer | What it proves |
 | --- | --- | --- |
-| `pnpm run test` | Vitest + `scripts/check-tokens.mjs` | Module contracts, architecture boundaries, historical-integrity rules, SEO/env/motion registration, design tokens |
+| `pnpm run test` | Node (`scripts/repo-access.test.mjs`) + Vitest (`@kediri/web`) + `scripts/check-tokens.mjs` | Repo access gate contract, module tests (see below), design-token snapshot |
 | `pnpm run test:e2e` | Playwright (`playwright.config.ts`) | Journey/archive UX contracts on **Next dev** (desktop + mobile); excludes `production-motion.spec.ts` |
 | `pnpm run test:e2e:production:built` | Playwright (`playwright.production.config.ts`) | Journey **production boot**: GSAP/ScrollTrigger readiness, scroll response, reduced-motion behavior, no editorial-preview leakage |
 | `pnpm run test:e2e:production` | Orchestrator (`scripts/run-production-motion.mjs`) | Full local pipeline: production build → journey HTML boundary → `test:e2e:production:built` |
@@ -20,7 +20,9 @@ CI contract (when enabled): `.github/workflows/ci.yml`. Production motion canary
 | Path | Role |
 | --- | --- |
 | `apps/web/tests/` | Vitest unit and contract tests |
+| `apps/web/vitest.config.ts` | Vitest runner: `environment: "node"`, `include: tests/**/*.test.ts`, excludes `e2e/**` (Playwright-owned) |
 | `apps/web/e2e/` | Playwright specs |
+| `scripts/repo-access.test.mjs` | Capsule repo-access preinstall gate (runs before Vitest in root `pnpm test`) |
 | `tests/` | Topology placeholder only; executable tests are **not** duplicated here (`tests/README.md` points here) |
 | `scripts/check-tokens.mjs` | Capsule token snapshot check (runs after Vitest in `pnpm test`) |
 | `scripts/check-production-journey.mjs` | Static guard on built `journey.html` (CMS scenes present, editorial preview markers absent) |
@@ -35,12 +37,19 @@ CI contract (when enabled): `.github/workflows/ci.yml`. Production motion canary
 | `evidence-language.test.ts` | Public copy vs evidence classes |
 | `seo-routes.test.ts` | Metadata and crawl routes |
 | `env.test.ts` | Environment schema |
+| `editorial-preview.test.ts` | Editorial preview allowed only in dev/test or explicit Vercel preview — never on Vercel Production |
 | `media-gate.test.ts` | Client media gate behavior |
 | `journey-audio.test.ts` | Journey audio control contracts |
 | `motion-gsap-registration.test.ts` | `@gsap/react` `useGSAP` registered from `modules/motion/gsap` before client use |
 | `framing-baked-text.test.ts` | Framing/baked text motion inputs |
 
 Run only web unit tests: `pnpm --filter @kediri/web test`.
+
+### Vitest pins and config
+
+- **Package:** `vitest` is a devDependency of `@kediri/web` (`apps/web/package.json`), not the capsule root. Patch bumps (for example security fixes in `@vitest/mocker`) update that manifest and `pnpm-lock.yaml` only.
+- **Config:** `apps/web/vitest.config.ts` — Node environment (no browser DOM in unit layer), glob `tests/**/*.test.ts`, explicit `exclude` for `e2e/**` so Playwright specs are never collected by Vitest (they would fail with misleading errors).
+- **After a Vitest bump:** from capsule root, `pnpm install --frozen-lockfile` then `pnpm run test`. No config change is required for typical patch releases.
 
 ## Playwright — dev server (`pnpm run test:e2e`)
 
