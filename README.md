@@ -51,6 +51,33 @@ The public experience has four complementary reading modes: **Journey** for cont
 
 ---
 
+## Releases
+
+### `v0.1.0` · First Public Edition
+
+**Current repository package version:** `0.1.0`  
+**Public channel:** [kediri.sentrahai.com](https://kediri.sentrahai.com/)  
+**Release character:** independent digital-heritage web experience · proprietary / UNLICENSED
+
+This first public edition establishes the complete product foundation for **Kediri — A Living Civilization**: a research-driven, cinematic historical experience spanning the commemorative 879 anchor through the living city of 2026. The edition organizes the public narrative into **27 scenes**, a Prologue, **nine historical chapters**, and a Finale while keeping historical evidence, interpretation, folklore, uncertainty, and editorial authority explicitly separated.
+
+The release exposes four complementary public reading surfaces: **Journey** for continuous cinematic storytelling, **Explore** for chronological and thematic navigation, **Archive** for structured historical entities, and **Sources** for traceable evidence. Historical content is modeled through Payload CMS and PostgreSQL, with evidence relationships, review status, media provenance, rights boundaries, and human historical approval treated as publication constraints rather than decorative metadata.
+
+The runtime foundation is **Next.js 16 + React 19**, with **GSAP 3** used for cinematic choreography without making motion responsible for historical meaning. Payload CMS 3 provides the editorial layer; PostgreSQL provides persistence; S3-compatible storage separates public media derivatives from private masters; and the repository carries explicit lint, typecheck, unit, architecture, historical-integrity, browser, production-build, and deploy-dry-run verification paths.
+
+**Release gates**
+
+- Historical claims must remain traceable to evidence and preserve uncertainty where the record is incomplete.
+- Generated or reconstructed imagery may support atmosphere and interpretation, but may not impersonate documentary evidence.
+- Factual historical text must remain semantic content rather than being baked into raster assets.
+- Implementation agents may prepare work as `READY_FOR_REVIEW`; final historical and cinematic approval remains a human authority boundary.
+- Production readiness requires the repository-defined verification and migration discipline; a successful visual build alone is not sufficient.
+
+> [!NOTE]
+> This section documents the repository's current product edition and package version. It does **not** assert that a GitHub Release object or version tag has been published unless one is explicitly created in the repository.
+
+---
+
 ## Narrative Chapters
 
 <table width="100%">
