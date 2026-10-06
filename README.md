@@ -274,6 +274,13 @@ Deliberately absent by default: global client state, a GraphQL client, Framer Mo
 
 All commands run from this capsule root.
 
+> [!IMPORTANT]
+> **Local clone access gate.** Standard install and application lifecycle commands require the repository password. The password itself is never committed; Git stores only its verifier. Authorized maintainers can set `KEDIRI_REPO_PASSWORD` in an untracked root `.env.local` or `apps/web/.env.local`. Without that variable, interactive commands prompt for the password. A locally served clone also uses browser Basic Auth with username `kediri` and the same password.
+>
+> Official GitHub Actions and Vercel runtimes bypass this local gate so CI and the canonical public deployment remain non-interactive.
+>
+> This is an execution/access deterrent, **not encryption or DRM**. Anyone who already possesses the source can edit out local guards. To prevent unauthorized source download itself, repository visibility must be private and access controlled at GitHub.
+
 <pre><code>pnpm install</code></pre>
 
 Create an untracked local environment file from the variable-only template, then provide local development values:
