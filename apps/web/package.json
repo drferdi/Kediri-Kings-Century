@@ -4,8 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "predev": "node ../../scripts/repo-access.mjs",
     "dev": "next dev -H 127.0.0.1",
+    "prebuild": "node ../../scripts/repo-access.mjs",
     "build": "next build --webpack",
+    "prestart": "node ../../scripts/repo-access.mjs",
     "start": "next start -H 127.0.0.1 -p 4320",
     "lint": "biome check src tests e2e",
     "typecheck": "tsc --project tsconfig.json",
