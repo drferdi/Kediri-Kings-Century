@@ -80,6 +80,8 @@ jobs:
         run: pnpm run db:seed
 
       - name: Build
+        env:
+          NODE_ENV: production
         run: pnpm run build
 
       # Kegagalan integritas historis MEMBLOKIR rilis; ia bukan peringatan.
