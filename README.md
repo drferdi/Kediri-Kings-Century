@@ -2,36 +2,43 @@
 <tr>
 <td width="34%" align="center" valign="top">
 
-<img src="https://i.ibb.co.com/0pcrZTSv/Chat-GPT-Image-Sep-4-2026-06-29-17-AM-removebg-preview.png" alt="Kediri — A Living Civilization" width="150" />
+<img src="https://i.ibb.co.com/jZwfy0vB/drferdiikskandar.png" alt="dr. Ferdi Iskandar" width="150" />
 <br />
-<b>KEDIRI</b><br />
-Digital Heritage Experience
+<b>dr. Ferdi Iskandar</b><br />
+Lead Architect
 <br />
-<img src="https://img.shields.io/badge/KEDIRI%20INDONESIA-22D3EE?style=flat-square" alt="Kediri, Indonesia" />
-<img src="https://img.shields.io/badge/RELEASE-FIRST%20PUBLIC%20EDITION-5B8CFF?style=flat-square" alt="First public edition" />
+<a href="https://ferdiiskandar.com">
+  <img src="https://img.shields.io/badge/FERDIISKANDAR.COM-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Official website" />
+</a>
+<br />
+<img src="https://img.shields.io/badge/KEDIRI%20INDONESIA-22D3EE?style=flat-square" alt="Kediri Indonesia" />
+<img src="https://img.shields.io/badge/UTC%2B7-5B8CFF?style=flat-square" alt="UTC+7" />
 
 </td>
 <td width="66%" valign="top">
 
-### <a href="https://kediri.sentrahai.com/">KEDIRI / DIGITAL HERITAGE EXPERIENCE</a>
+SENTRA / KEDIRI — A LIVING CIVILIZATION
 
 <a href="https://kediri.sentrahai.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=33&duration=3400&pause=1500&color=EB5939&vCenter=true&width=710&height=44&lines=Kediri%3A+sebuah+kota%2C+bukan+satu+titik+awal." alt="Kediri: a city, not a single point of origin." />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=700&size=33&duration=3400&pause=1500&color=EB5939&vCenter=true&width=710&height=44&lines=A+city%2C+not+a+single+point+of+origin.;Evidence+before+spectacle." alt="Kediri — A Living Civilization" />
 </a>
 
-<b>Public edition:</b> 879 → 2026 · Kediri, Indonesia · digital heritage experience
+<b>Operational signal:</b> Kediri, Indonesia · First Public Edition · historical evidence → cinematic public reading
 
 <a href="https://sentrahai.com/"><b>Sentra Artificial Intelligence</b></a><br />
-An independent historical experience built around traceable claims, explicit uncertainty, and human historical review.
+An independent digital-heritage experience that separates historical evidence, editorial interpretation, public presentation, and human historical authority.
 
 <p>
   <a href="https://github.com/drferdi/Kediri-Kings-Century" title="GitHub"><img src="https://cdn.simpleicons.org/github/8B949E" width="22" height="22" alt="GitHub" /></a>&nbsp;&nbsp;
   <a href="https://kediri.sentrahai.com/" title="Live site"><img src="https://cdn.simpleicons.org/vercel/8B949E" width="22" height="22" alt="Live site" /></a>&nbsp;&nbsp;
   <a href="https://sentrahai.com/" title="Sentra Artificial Intelligence"><img src="https://cdn.simpleicons.org/googlechrome/8B949E" width="22" height="22" alt="Sentra Artificial Intelligence" /></a>&nbsp;&nbsp;
-  <a href="https://ferdiiskandar.com/" title="ferdiiskandar.com"><img src="https://cdn.simpleicons.org/aboutdotme/8B949E" width="22" height="22" alt="ferdiiskandar.com" /></a>
+  <a href="https://ferdiiskandar.com" title="ferdiiskandar.com"><img src="https://cdn.simpleicons.org/vercel/8B949E" width="22" height="22" alt="ferdiiskandar.com" /></a>&nbsp;&nbsp;
+  <a href="https://medium.com/@drferdiiskandar" title="Medium"><img src="https://cdn.simpleicons.org/medium/8B949E" width="22" height="22" alt="Medium" /></a>&nbsp;&nbsp;
+  <a href="https://orcid.org/0009-0003-3788-1307" title="ORCID"><img src="https://cdn.simpleicons.org/orcid/8B949E" width="22" height="22" alt="ORCID" /></a>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/dr-ferdi-iskandar-1b620a3b5"><img src="https://img.shields.io/badge/LinkedIn-808080?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="22" /></a>
 </p>
 
-<sub><code>HISTORICAL EVIDENCE → EDITORIAL NARRATIVE → EXPERIENCE MODEL → MOTION → PUBLIC READING</code></sub>
+<sub><code>RESEARCH CORPUS → EVIDENCE MODEL → HISTORICAL REVIEW → PUBLIC DTO → CINEMATIC READING</code></sub>
 
 </td>
 </tr>
@@ -41,44 +48,71 @@ An independent historical experience built around traceable claims, explicit unc
 
 ### <code>01 / ORIGIN SIGNAL</code>
 
-**[Kediri — A Living Civilization](https://kediri.sentrahai.com/)** is an independent, cinematic web experience about the long and layered history of Kediri. It follows the record from the 879 date commemorated by the city through the present day, without reducing the city to a single uninterrupted political identity.
+**Kediri — A Living Civilization** is an independent historical web experience spanning the record associated with Kediri from the 879 date commemorated by the city through the present day. It is designed to make a long, layered civic history readable without collapsing multiple eras, polities, traditions, and interpretations into one artificial continuous identity.
 
-The project has two complementary public paths:
+The public experience exposes several reading paths. **Journey** provides a continuous cinematic narrative; **Explore** provides structured chronological and thematic navigation; **Archive** exposes records for events, people, places, objects, claims, and sources; and **Sources** provides the evidence-level route behind public historical statements.
 
-- **Journey** presents a continuous, scroll-directed historical narrative.
-- **Archive** explains the evidence behind individual events, people, places, objects, and sources.
+The repository deliberately separates preserved research input from public truth. Historical claims are expected to resolve through an evidence model and human review, while uncertainty, tradition, folklore, interpretation, and verified records remain distinguishable instead of being flattened for dramatic effect.
 
-The premise is deliberate: a compelling visual experience must not make historical certainty appear stronger than the evidence allows. A reader should be able to move from a scene to its supporting record, see whether a statement is a primary record, historical fact, scholarly interpretation, tradition, folklore, or modern verified data, and understand what remains uncertain.
+This repository contains the application, verification tooling, local infrastructure, production documentation, research boundaries, and legal/IP context required to operate the product as a standalone project.
 
-This first public edition is dedicated to the Government and people of Kediri.
-
-> [!IMPORTANT]
-> **Independence and attribution disclaimer.** This is an independent project dedicated to Pemerintah Kota Kediri and the people of Kediri. It is not an official statement, publication, policy, or communication channel of Pemerintah Kota Kediri unless explicitly stated in writing. Artistic visualisations are not necessarily literal depictions of historical events, places, or people.
+-- https://ferdiiskandar.com
 
 <p align="center">
-  <img src="https://img.shields.io/badge/EDITION-FIRST%20PUBLIC-5B8CFF?style=flat-square" alt="First public edition" />
-  <img src="https://img.shields.io/badge/STATUS-EVOLVING%20HISTORICAL%20EDITION-22D3EE?style=flat-square" alt="Evolving historical edition" />
-  <img src="https://img.shields.io/badge/LIVE-kediri.sentrahai.com-0D1117?style=flat-square" alt="Live site" />
+  <img src="https://img.shields.io/badge/SIGNAL-EVIDENCE%20TRACEABLE-F43F5E?style=flat-square" alt="Evidence traceable" />
+  <img src="https://img.shields.io/badge/SIGNAL-FIRST%20PUBLIC%20EDITION-F59E0B?style=flat-square" alt="First public edition" />
+  <img src="https://img.shields.io/badge/RISK-R2-8B5CF6?style=flat-square" alt="R2" />
 </p>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<b><code>LAYER I · HISTORICAL CANON</code></b>
+
+Claims, chronology, source relationships, evidence classes, rights, representation rules, and correction boundaries.
+
+</td>
+<td width="33%" valign="top">
+
+<b><code>LAYER II · EDITORIAL EXPERIENCE</code></b>
+
+Narrative beats, scene composition, semantic copy, cinematic choreography, transition rules, and visual acceptance.
+
+</td>
+<td width="33%" valign="top">
+
+<b><code>LAYER III · PUBLIC READING</code></b>
+
+Journey, Explore, Archive, Sources, semantic HTML, responsive motion, and evidence affordances presented to the reader.
+
+</td>
+</tr>
+</table>
+
+**Objective:** create a compelling public historical experience without allowing presentation strength to exceed evidentiary strength.
 
 ---
 
-### <code>02 / EDITORIAL DOCTRINE</code>
+### <code>02 / DOCTRINE</code>
 
-<table width="100%">
+> [!IMPORTANT]
+> **Spectacle may interpret history; it may never silently replace evidence, uncertainty, provenance, or human historical review.**
+
+<table>
 <tr>
 <td width="50%" valign="top">
 
 <b><code>HISTORY IS NOT ANIMATION DATA</code></b>
 
-Historical truth, editorial narrative, experience model, and motion remain separate. A historian can correct a claim without editing GSAP; a motion designer can revise a scene without changing historical truth.
+Historical truth, editorial narrative, experience state, and motion are separate concerns. A claim can be corrected without rewriting choreography; motion can change without rewriting historical truth.
 
 </td>
 <td width="50%" valign="top">
 
 <b><code>UNCERTAINTY REMAINS VISIBLE</code></b>
 
-Folklore, tradition, interpretation, and verified historical fact are distinct evidence classes. The project does not turn a disputed or incomplete claim into certainty for dramatic effect.
+Primary records, historical facts, scholarly interpretation, tradition, folklore, and modern verified data are not interchangeable evidence classes.
 
 </td>
 </tr>
@@ -87,30 +121,30 @@ Folklore, tradition, interpretation, and verified historical fact are distinct e
 
 <b><code>NO SOURCELESS PUBLIC CLAIMS</code></b>
 
-Public historical claims resolve through an EvidenceClaim, one or more EvidenceLinks, and Sources. Publication requires review and an appropriate evidence trail.
+The public evidence path is modeled around <code>EvidenceClaim → EvidenceLink → Source</code>, with publication gated by historical review and integrity checks.
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>THE DOCUMENT STILL WORKS</code></b>
+<b><code>SEMANTIC FIRST, MOTION SECOND</code></b>
 
-The public narrative is server-rendered semantic HTML first. Motion enriches reading; it is never required to understand the historical account.
+The public narrative remains readable as server-rendered semantic HTML. GSAP enriches the experience; it does not own the historical facts.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<b><code>PROVENANCE BEFORE DECORATION</code></b>
+<b><code>ONE PROBLEM, THEN DEPTH</code></b>
 
-Public media derivatives, private masters, rights documents, and research material are deliberately separated. A visually attractive asset is not automatically authorised historical evidence.
+The product solves one core problem deeply: make Kediri's layered historical record publicly explorable without obscuring provenance or uncertainty.
 
 </td>
 <td width="50%" valign="top">
 
-<b><code>HUMAN REVIEW HOLDS AUTHORITY</code></b>
+<b><code>NO MAGIC WITHOUT AUDIT</code></b>
 
-Research may enter as draft material, but publication remains governed by historical review. The system preserves disagreement instead of silently reconciling it.
+A passing visual result is insufficient. Claims, media rights, module boundaries, build behavior, production HTML, and motion behavior all have explicit verification paths.
 
 </td>
 </tr>
@@ -118,249 +152,583 @@ Research may enter as draft material, but publication remains governed by histor
 
 ---
 
-### <code>03 / EXPERIENCE MAP</code>
+### <code>03 / PRODUCT TOPOLOGY</code>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CAPABILITY-JOURNEY-5B8CFF?style=flat-square" alt="Journey" />
+  <img src="https://img.shields.io/badge/CAPABILITY-ARCHIVE-8B5CF6?style=flat-square" alt="Archive" />
+  <img src="https://img.shields.io/badge/CAPABILITY-EVIDENCE%20MODEL-22D3EE?style=flat-square" alt="Evidence model" />
+  <img src="https://img.shields.io/badge/CAPABILITY-CINEMATIC%20MOTION-14B8A6?style=flat-square" alt="Cinematic motion" />
+  <img src="https://img.shields.io/badge/SAFETY-HUMAN%20HISTORICAL%20REVIEW-F59E0B?style=flat-square" alt="Human historical review" />
+</p>
 
 <details open>
-<summary><b><code>PUBLIC READING MODEL // ONE HISTORY, THREE ENTRY POINTS</code></b></summary>
-
-~~~mermaid
-flowchart LR
-  HOME["KEDIRI / HOME"]
-  JOURNEY["JOURNEY<br/>continuous cinematic reading"]
-  EXPLORE["EXPLORE<br/>chronology and thematic navigation"]
-  ARCHIVE["ARCHIVE<br/>records, claims, and sources"]
-  SOURCE["SOURCE<br/>evidence and provenance"]
-
-  HOME --> JOURNEY
-  HOME --> EXPLORE
-  HOME --> ARCHIVE
-  JOURNEY --> ARCHIVE
-  EXPLORE --> ARCHIVE
-  ARCHIVE --> SOURCE
-~~~
-
-</details>
-
-| Surface | Purpose | Reading promise |
-| --- | --- | --- |
-| [Home](https://kediri.sentrahai.com/) | Introduces the city as a living civilisation. | A clear way into the site without prior historical knowledge. |
-| [Journey](https://kediri.sentrahai.com/journey) | One continuous route with stable scene anchors. | Story, context, and transition across historical periods. |
-| [Explore](https://kediri.sentrahai.com/explore/timeline) | Structured navigation through time and themes. | Direct access to a period or subject of interest. |
-| [Archive](https://kediri.sentrahai.com/archive) | Records for events, people, places, and objects. | The route from narrative statement to its evidence. |
-| [Sources](https://kediri.sentrahai.com/sources) | Source-level reading. | The record behind a public claim. |
-
----
-
-### <code>04 / EVIDENCE PATH</code>
-
-<details open>
-<summary><b><code>PUBLICATION PATH // FROM RESEARCH TO A PUBLIC CLAIM</code></b></summary>
-
-~~~mermaid
-flowchart LR
-  CORPUS["Research corpus<br/>preserved input"]
-  DRAFT["Draft record<br/>needs review"]
-  CLAIM["EvidenceClaim"]
-  LINK["EvidenceLink"]
-  SOURCE["Source"]
-  REVIEW["Historical review"]
-  PUBLIC["Published public DTO"]
-  SCENE["Journey / Archive"]
-
-  CORPUS --> DRAFT --> CLAIM
-  CLAIM --> LINK --> SOURCE
-  CLAIM --> REVIEW --> PUBLIC --> SCENE
-~~~
-
-</details>
-
-<pre><code>EvidenceClaim → EvidenceLink → Source</code></pre>
-
-The evidence classes are distinct:
-
-<pre><code>primary_record · historical_fact · scholarly_interpretation
-tradition · folklore · modern_verified_data</code></pre>
-
-The preserved corpus in <code>research/original/</code> is research input, not public truth. It is never auto-published and may contain disputed, incomplete, outdated, or incorrect claims. The production evidence model is recorded in [the production authority](docs/production/00_IMPLEMENTATION_AUTHORITY.md).
-
----
-
-### <code>05 / ARCHITECTURE</code>
-
-Kediri is a sovereign, standalone capsule: it installs, builds, tests, runs, and performs a deploy dry-run from this directory. It does not require the enclosing Monorepo at runtime, build time, test time, or deployment time.
-
-<details open>
-<summary><b><code>RUNTIME SHAPE // MODULAR MONOLITH</code></b></summary>
+<summary><b><code>LIVE TOPOLOGY // SYSTEM RELATION MAP</code></b></summary>
 
 ~~~mermaid
 flowchart TB
-  CMS["Payload Admin"]
-  DB["PostgreSQL"]
-  STORAGE["S3-compatible storage"]
-  SERVER["Next.js server data layer"]
-  HTML["Semantic HTML"]
-  MOTION["Client motion islands<br/>GSAP + ScrollTrigger"]
-  PUBLIC["Public reader"]
+  REVIEWER["HUMAN HISTORICAL REVIEWER"]
+  CMS["PAYLOAD ADMIN / EDITORIAL INPUT"]
+  MODEL["EVIDENCE + CONTENT MODEL"]
+  DB["POSTGRESQL"]
+  MEDIA["S3-COMPATIBLE STORAGE"]
+  GATE["CONTENT VALIDATION / INTEGRITY GATE"]
+  SERVER["NEXT.JS SERVER DATA LAYER"]
+  PUBLIC["JOURNEY · EXPLORE · ARCHIVE · SOURCES"]
+  READER["PUBLIC READER"]
 
-  CMS --> DB
-  CMS --> STORAGE
+  REVIEWER --> CMS
+  CMS --> MODEL
+  MODEL --> GATE
+  GATE --> DB
+  MEDIA --> SERVER
   DB --> SERVER
-  STORAGE --> SERVER
-  SERVER --> HTML
-  HTML --> MOTION
-  HTML --> PUBLIC
-  MOTION --> PUBLIC
+  SERVER --> PUBLIC
+  PUBLIC --> READER
+  READER -. correction / scrutiny .-> REVIEWER
 ~~~
 
 </details>
 
-| Module | Responsibility | Must not depend on |
-| --- | --- | --- |
-| <code>historical-domain/</code> | Chronology, evidence classes, confidence, rights and representation policy. | React, Next.js, Payload, GSAP, database code. |
-| <code>content-validation/</code> | Validation of claims, evidence links, rights, scenes, and integrity. | React, Next.js, GSAP, Payload, database code. |
-| <code>design-system/</code> | Token snapshot, typography, layout primitives, and evidence presentation. | Kediri-specific historical entities, CMS, database. |
-| <code>motion/</code> | GSAP registration, tokens, choreography, responsive variants, and cleanup. | Payload, CMS queries, database, research corpus, historical copy. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Application code composes these modules; the modules never reach back into the application. The architecture-boundary test enforces this rule.
+<b><code>01 · HISTORICAL DOMAIN</code></b><br />
+<b>Chronology and epistemic structure</b>
+
+Defines evidence classes, confidence, historical relationships, rights, and representation policy without depending on React, Next.js, Payload, GSAP, or database implementation.
+
+<img src="https://img.shields.io/badge/FUNCTION-DOMAIN%20TRUTH-5B8CFF?style=flat-square" alt="Domain truth" /><br />
+<sub>Boundary enforced by architecture tests.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>02 · CONTENT VALIDATION</code></b><br />
+<b>Publication integrity gate</b>
+
+Validates claims, evidence links, scenes, media rights, historical integrity, and public content contracts before reviewed material becomes production-shaped output.
+
+<img src="https://img.shields.io/badge/FUNCTION-VALIDATION-22D3EE?style=flat-square" alt="Validation" /><br />
+<sub>Designed to remain independent from presentation and CMS-specific coupling.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b><code>03 · DESIGN SYSTEM</code></b><br />
+<b>Public presentation primitives</b>
+
+Owns the local token snapshot, typography, layout primitives, and evidence presentation without owning Kediri-specific historical entities.
+
+<img src="https://img.shields.io/badge/FUNCTION-PRESENTATION-8B5CF6?style=flat-square" alt="Presentation" />
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>04 · MOTION</code></b><br />
+<b>Cinematic choreography</b>
+
+Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive choreography, reduced-motion behavior, and cleanup without owning historical truth.
+
+<img src="https://img.shields.io/badge/FUNCTION-MOTION-14B8A6?style=flat-square" alt="Motion" />
+
+</td>
+</tr>
+</table>
 
 ---
 
-### <code>06 / ENGINEERING SURFACE</code>
+### <code>04 / THE ENGINE ROOM</code>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<b><code>CONTENT & EVIDENCE</code></b>
+
+- historical-domain module
+- content-validation module
+- Payload collections and editorial surfaces
+- evidence classes and provenance
+- reviewed production narrative
+
+</td>
+<td width="33%" valign="top">
+
+<b><code>EXPERIENCE & MOTION</code></b>
+
+- Next.js App Router
+- React 19
+- semantic server-rendered HTML
+- GSAP + ScrollTrigger
+- responsive and reduced-motion paths
+
+</td>
+<td width="33%" valign="top">
+
+<b><code>DATA & DELIVERY</code></b>
+
+- PostgreSQL 18
+- S3-compatible object storage
+- MinIO for local storage
+- Vercel public delivery
+- Playwright production canary path
+
+</td>
+</tr>
+</table>
+
+<details open>
+<summary><b><code>RUNTIME TOPOLOGY // CONTROL & DATA PLANE</code></b></summary>
+
+~~~mermaid
+flowchart TB
+  REVIEWER["HUMAN REVIEW / APPROVAL"]
+  ADMIN["PAYLOAD ADMIN"]
+  VALIDATE["CONTENT VALIDATION"]
+  DB["POSTGRESQL"]
+  S3["S3-COMPATIBLE MEDIA"]
+  NEXT["NEXT.JS 16 SERVER"]
+  HTML["SEMANTIC HTML"]
+  MOTION["GSAP MOTION ISLANDS"]
+  READER["PUBLIC READER"]
+  VERIFY["VITEST · PLAYWRIGHT · BUILD CHECKS"]
+
+  REVIEWER --> ADMIN
+  ADMIN --> VALIDATE
+  VALIDATE --> DB
+  DB --> NEXT
+  S3 --> NEXT
+  NEXT --> HTML
+  HTML --> READER
+  HTML --> MOTION
+  MOTION --> READER
+  VERIFY -. checks .-> VALIDATE
+  VERIFY -. checks .-> NEXT
+~~~
+
+</details>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,postgres,docker,vercel" alt="Kediri instrumentation icons" />
+</p>
+
+---
+
+### <code>05 / SIGNAL PATH</code>
+
+~~~mermaid
+flowchart TB
+  CORPUS["PRESERVED RESEARCH CORPUS"]
+  DRAFT["DRAFT EDITORIAL RECORD"]
+  CLAIM["EVIDENCECLAIM"]
+  LINK["EVIDENCELINK + SOURCE"]
+  GATE["HISTORICAL INTEGRITY / RIGHTS GATE"]
+  REVIEW["HUMAN HISTORICAL REVIEW"]
+  DTO["PUBLIC DTO / SERVER DATA"]
+  OUTPUT["JOURNEY · EXPLORE · ARCHIVE · SOURCES"]
+  ESC["EXPOSE UNCERTAINTY / CORRECT / REJECT"]
+
+  CORPUS --> DRAFT
+  DRAFT --> CLAIM
+  CLAIM --> LINK
+  LINK --> GATE
+  GATE --> REVIEW
+  REVIEW --> DTO
+  DTO --> OUTPUT
+  GATE -. insufficient evidence / rights .-> ESC
+  REVIEW -. not approved .-> ESC
+~~~
+
+The repository's production authority makes the human boundary explicit: implementation agents may mark cinematic work <code>READY_FOR_REVIEW</code>, but they may not mark it <code>APPROVED</code>. Final approval belongs to the Chief/reviewer. Historical text carrying factual or epistemic meaning must remain semantic DOM content rather than being baked into raster assets, and interpretive/generated imagery may not impersonate documentary evidence.
+
+---
+
+### <code>06 / BUILD PROTOCOL</code>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<b><code>FRONTEND</code></b>
+
+Next.js 16 App Router with React 19. Public reading surfaces are server-rendered semantic HTML, with selected client-side GSAP choreography layered on top. The Journey does not require motion to carry historical meaning.
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>BACKEND</code></b>
+
+Payload CMS 3 is integrated into the Next.js application with PostgreSQL storage. Repository scripts expose Payload migration, seed, type generation, and production-integrity verification commands.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b><code>AI RUNTIME</code></b>
+
+No AI/ML runtime is declared in the application package manifests. AI-generated or reconstructed historical imagery, where used as content, is governed as interpretive media and must not be presented as authenticated historical evidence.
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>DATA / DOCUMENT / INTEGRATION</code></b>
+
+PostgreSQL stores CMS-backed content. S3-compatible object storage separates public derivatives from private masters. The preserved research corpus is input material, not auto-published production truth.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b><code>DATA & SECURITY</code></b>
+
+Environment values are defined through a variable-only <code>.env.example</code>. Secrets, private media masters, and rights documents are not intended for source control. Local clone execution uses a repository-password deterrent; the repository explicitly states that this is not encryption or DRM.
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>DEPLOYMENT</code></b>
+
+The public product is configured around <code>kediri.sentrahai.com</code> and Vercel production delivery. Production credentials and deployment configuration are not stored in this repository. A production motion canary is defined separately from the main manual CI workflow.
+
+</td>
+</tr>
+</table>
+
+<details open>
+<summary><b><code>PROMOTION STATE // DEVELOPMENT → PUBLIC PRODUCTION</code></b></summary>
+
+~~~mermaid
+flowchart TB
+  DEV["DEVELOPMENT"]
+  STATIC["LINT · TYPECHECK · UNIT TESTS"]
+  HIST["HISTORICAL INTEGRITY"]
+  BUILD["WEBPACK PRODUCTION BUILD"]
+  BROWSER["PLAYWRIGHT / PRODUCTION MOTION"]
+  REVIEW["HUMAN REVIEW"]
+  PROD["PUBLIC PRODUCTION"]
+  ROLLBACK["CORRECT / ROLLBACK"]
+
+  DEV --> STATIC
+  STATIC --> HIST
+  HIST --> BUILD
+  BUILD --> BROWSER
+  BROWSER --> REVIEW
+  REVIEW --> PROD
+  PROD -. failure / disputed signal .-> ROLLBACK
+  ROLLBACK --> DEV
+~~~
+
+</details>
+
+#### Local Development
+
+The capsule contract declares Node.js 24 and pnpm 11.21.0.
+
+~~~bash
+node scripts/pnpm.mjs install
+Copy-Item .env.example apps/web/.env.local
+docker compose -f infra/docker-compose.yml up -d
+node scripts/pnpm.mjs run db:migrate
+node scripts/pnpm.mjs run db:seed
+node scripts/pnpm.mjs run dev
+~~~
+
+Built local contract server:
+
+~~~bash
+node scripts/pnpm.mjs run build
+node scripts/serve.mjs
+# http://127.0.0.1:4320
+~~~
+
+#### Verification
+
+~~~bash
+node scripts/pnpm.mjs run lint
+node scripts/pnpm.mjs run typecheck
+node scripts/pnpm.mjs run test
+node scripts/pnpm.mjs run build
+node scripts/pnpm.mjs run verify:production
+node scripts/pnpm.mjs run deploy:dry-run
+~~~
+
+Additional browser evidence:
+
+~~~bash
+pnpm run test:e2e
+pnpm run test:e2e:production
+~~~
+
+> [!NOTE]
+> These commands are defined by the current repository manifests and contract. This README revision does not claim a fresh green run unless a verification run is explicitly executed and recorded.
+
+#### License & contribution boundary
+
+The repository is **proprietary / UNLICENSED**. Public access to the deployed site does not grant permission to reproduce, redistribute, sublicense, commercialize, or publish the source or proprietary assets. Contributions must preserve historical-integrity rules, local module boundaries, source provenance, rights boundaries, and standalone operation.
+
+---
+
+### <code>07 / THE SENTRA OPERATING STANDARD</code>
+
+No magic without audit.  
+No automation without verification.  
+No production promotion without rollback.  
+No sensitive data without explicit security boundaries.  
+No expansion without one solved problem first.
+
+> [!CAUTION]
+> Human authority is a terminal boundary. Historical publication, difficult cinematic substitutions, disputed evidence, and approval of production narrative remain reviewable human decisions.
+
+<table>
+<tr>
+<th align="left">Interrogation</th>
+<th align="left">Required answer</th>
+</tr>
+<tr>
+<td><b>What specific problem does this solve?</b></td>
+<td>Make Kediri's layered historical record publicly readable and cinematic while preserving provenance, evidence classes, uncertainty, and correction paths.</td>
+</tr>
+<tr>
+<td><b>Who is the human reviewer or accountable operator?</b></td>
+<td>Chief / designated historical reviewer. Production authority reserves final approval to the human reviewer.</td>
+</tr>
+<tr>
+<td><b>What is outside the scope?</b></td>
+<td>Institutional endorsement, automatic historical certification, source-less certainty, rights-cleared status for every external asset, or transfer of ownership merely by repository publication.</td>
+</tr>
+<tr>
+<td><b>What can fail?</b></td>
+<td>Historical-integrity checks, evidence linkage, rights boundaries, CMS data readiness, build output, client motion, reduced-motion behavior, deployment configuration, or human review.</td>
+</tr>
+<tr>
+<td><b>How is it verified?</b></td>
+<td>Biome, TypeScript, Vitest, architecture-boundary tests, historical-integrity checks, webpack production build, static journey checks, Payload verification, Playwright dev/production evidence, and deploy dry-run.</td>
+</tr>
+</table>
+
+---
+
+### <code>08 / SENTRA FOUNDATION · AGENT-FIRST ENGINEERING</code>
+
+Kediri — A Living Civilization is developed within the Sentra Artificial Intelligence engineering ecosystem.
+
+The repository contract identifies the project as <code>product/kediri-history</code>, risk tier <code>R2</code>, with an explicit standalone lifecycle for install, lint, typecheck, test, build, run, and deploy dry-run. It declares no external project dependencies in that contract.
+
+Where SAFRS governance applies, the operating model is:
+
+**Human-Governed · Agent-Executed · Machine-Enforced.**
+
+The repository is expected to remain explicit about architecture contracts, review boundaries, evidence quality, risk, and production authority. Executable verification is stronger evidence than narrative claims; historical code or documentation does not override the current product contract.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SENTRA-ARTIFICIAL%20INTELLIGENCE-5B8CFF?style=flat-square" alt="Sentra Artificial Intelligence" />
+  <img src="https://img.shields.io/badge/HUMAN-GOVERNED-F59E0B?style=flat-square" alt="Human Governed" />
+  <img src="https://img.shields.io/badge/AGENT-EXECUTED-8B5CF6?style=flat-square" alt="Agent Executed" />
+  <img src="https://img.shields.io/badge/MACHINE-ENFORCED-14B8A6?style=flat-square" alt="Machine Enforced" />
+</p>
+
+---
+
+### <code>09 / SENTRA DIVISIONAL HOME</code>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/RUNTIME-Node.js%2024-5B8CFF?style=flat-square" alt="Node.js 24" /><br />
-<img src="https://img.shields.io/badge/PACKAGE%20MANAGER-pnpm%2011-22D3EE?style=flat-square" alt="pnpm 11" /><br />
-<b><code>APPLICATION</code></b><br />
-<small>Next.js 16 App Router · React 19 · Payload 3 · Zod 4</small>
+<img src="https://img.shields.io/badge/DIVISION-SENTRA%20PRODUCT%20DOMAIN-22D3EE?style=flat-square" alt="Sentra Product Domain" />
+
+<b><code>SENTRA ARTIFICIAL INTELLIGENCE · PRODUCT DOMAIN</code></b><br />
+<sub>The repository contract classifies this product under <code>product/kediri-history</code>. Its operating domain is cultural heritage and public historical experience.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/MOTION-GSAP%203-F59E0B?style=flat-square" alt="GSAP 3" /><br />
-<img src="https://img.shields.io/badge/QUALITY-Biome%20%2B%20Vitest%20%2B%20Playwright-14B8A6?style=flat-square" alt="Quality tooling" /><br />
-<b><code>EXPERIENCE AND VERIFICATION</code></b><br />
-<small>GSAP · ScrollTrigger · ScrollSmoother · Biome · TypeScript · Vitest · Playwright</small>
+<img src="https://img.shields.io/badge/PRODUCT-KEDIRI%20HISTORY-8B5CF6?style=flat-square" alt="Kediri History" />
+
+<b><code>KEDIRI — A LIVING CIVILIZATION</code></b><br />
+<sub>A cinematic digital-heritage product combining historical evidence, editorial review, Payload-backed content, semantic public reading, and motion choreography.</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+### <code>10 / OFFICIAL SPONSOR & INSTITUTIONAL CONTEXT</code>
+
+**No external sponsor is declared for this product.** The product is developed under Sentra Artificial Intelligence.
+
+The repository states that the project is an **independent work dedicated to Pemerintah Kota Kediri and the people of Kediri**. It must not be represented as an official statement, publication, policy, or communication channel of Pemerintah Kota Kediri unless separately authorized in writing.
+
+The repository also records a contemplated **Full Assignment of Economic Rights** to Pemerintah Kota Kediri. The proprietary notice is explicit that no transfer occurs merely because the notice or repository exists; any transfer depends on a duly executed written agreement and its stated conditions.
+
+> [!IMPORTANT]
+> Public access, dedication, contemplated assignment, or historical subject matter do not by themselves establish sponsorship, endorsement, partnership, certification, or completed ownership transfer.
+
+---
+
+### <code>11 / OPEN CHANNEL</code>
+
+<p align="center">
+  <a href="https://kediri.sentrahai.com/"><img src="https://img.shields.io/badge/Kediri-Live%20Experience-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Kediri live experience" /></a>
+  <a href="https://sentrahai.com/"><img src="https://img.shields.io/badge/Sentra-Artificial%20Intelligence-5B8CFF?style=for-the-badge" alt="Sentra Artificial Intelligence" /></a>
+  <a href="https://www.linkedin.com/in/dr-ferdi-iskandar-1b620a3b5"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@drferdiiskandar"><img src="https://img.shields.io/badge/Medium-111111?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://x.com/ClaudesyI81047"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+</p>
+
+---
+
+### <code>12 / ACTIVE STACK</code>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<b><code>Node.js 24 · pnpm 11.21.0</code></b><br />
+<small>Capsule runtime and package-manager contract.</small>
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>Next.js 16 · React 19</code></b><br />
+<small>Public application, App Router, server rendering, and client experience layer.</small>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/DATA-PostgreSQL%2018-8B5CF6?style=flat-square" alt="PostgreSQL 18" /><br />
-<img src="https://img.shields.io/badge/STORAGE-S3--compatible-64748B?style=flat-square" alt="S3-compatible storage" /><br />
-<b><code>LOCAL INFRASTRUCTURE</code></b><br />
-<small>PostgreSQL 18 and MinIO are owned by <code>infra/docker-compose.yml</code>. Public derivatives and private masters use separate buckets.</small>
+<b><code>Payload CMS 3 · PostgreSQL 18</code></b><br />
+<small>Editorial content model, migrations, reviewed data, and persistence.</small>
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/HOSTING-Vercel-0D1117?style=flat-square" alt="Vercel" /><br />
-<img src="https://img.shields.io/badge/DOMAIN-kediri.sentrahai.com-22D3EE?style=flat-square" alt="kediri.sentrahai.com" /><br />
-<b><code>PUBLIC DELIVERY</code></b><br />
-<small>The current public domain resolves to the production deployment. Deployment configuration and credentials remain outside this repository.</small>
+<b><code>S3-compatible storage · MinIO</code></b><br />
+<small>Public derivatives and private master storage with separate local buckets.</small>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b><code>GSAP 3 · ScrollTrigger · ScrollSmoother</code></b><br />
+<small>Journey choreography, responsive motion, production motion instrumentation.</small>
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>Biome · TypeScript · Vitest · Playwright</code></b><br />
+<small>Static analysis, type contracts, unit/architecture checks, and browser evidence.</small>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<b><code>Docker Compose</code></b><br />
+<small>Capsule-owned local PostgreSQL and MinIO development infrastructure.</small>
+
+</td>
+<td width="50%" valign="top">
+
+<b><code>Vercel</code></b><br />
+<small>Public deployment context for the canonical site; deployment credentials remain external.</small>
 
 </td>
 </tr>
 </table>
 
-Deliberately absent by default: global client state, a GraphQL client, Framer Motion, Lenis, Locomotive Scroll, Three.js, Redis, search services, vector databases, Prisma, and tRPC. A new dependency requires a demonstrated problem, not anticipation.
-
 ---
 
-### <code>07 / RUN LOCALLY</code>
+### <code>13 / INSTRUMENTATION</code>
 
-All commands run from this capsule root.
+<small><code>ACTUAL TECHNOLOGY SURFACE · KEDIRI — A LIVING CIVILIZATION</code></small>
 
-> [!IMPORTANT]
-> **Local clone access gate.** Standard install and application lifecycle commands require the repository password. The password itself is never committed; Git stores only its verifier. Authorized maintainers can set `KEDIRI_REPO_PASSWORD` in an untracked root `.env.local` or `apps/web/.env.local`. Without that variable, interactive commands prompt for the password. A locally served clone also uses browser Basic Auth with username `kediri` and the same password.
->
-> Official GitHub Actions and Vercel runtimes bypass this local gate so CI and the canonical public deployment remain non-interactive.
->
-> This is an execution/access deterrent, **not encryption or DRM**. Anyone who already possesses the source can edit out local guards. To prevent unauthorized source download itself, repository visibility must be private and access controlled at GitHub.
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-<pre><code>pnpm install</code></pre>
+<img src="https://img.shields.io/badge/01-LANGUAGES%20%26%20RUNTIMES-5B8CFF?style=flat-square" alt="Languages & Runtimes" />
 
-Create an untracked local environment file from the variable-only template, then provide local development values:
+<b><code>LANGUAGES & RUNTIMES</code></b><br />
+<small>TypeScript · JavaScript/Node.js 24 · YAML · Markdown · SQL through Payload/PostgreSQL migrations.</small>
 
-<pre><code>Copy-Item .env.example apps/web/.env.local</code></pre>
+</td>
+<td width="50%" valign="top">
 
-Start capsule-local PostgreSQL and MinIO when data-backed development is required:
+<img src="https://img.shields.io/badge/02-FRONTEND%20%26%20UI-22D3EE?style=flat-square" alt="Frontend & UI" />
 
-<pre><code>docker compose -f infra/docker-compose.yml up -d
-pnpm run db:migrate
-pnpm run db:seed</code></pre>
+<b><code>FRONTEND & UI</code></b><br />
+<small>Next.js 16 App Router · React 19 · semantic server-rendered HTML · GSAP motion modules · responsive/reduced-motion paths.</small>
 
-Run the application:
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<pre><code>pnpm run dev</code></pre>
+<img src="https://img.shields.io/badge/03-BACKEND%20%26%20API-14B8A6?style=flat-square" alt="Backend & API" />
 
-For a built local server on the capsule contract port:
+<b><code>BACKEND & API</code></b><br />
+<small>Payload CMS 3 · Next.js server data layer · Payload routes/admin integration · repository Payload CLI wrappers.</small>
 
-<pre><code>pnpm run build
-node scripts/serve.mjs
-# http://127.0.0.1:4320</code></pre>
+</td>
+<td width="50%" valign="top">
 
-Never commit <code>.env.local</code>, credentials, private media masters, rights documents, or the preserved research corpus as production data.
+<img src="https://img.shields.io/badge/04-AI%20%C2%B7%20ML%20%C2%B7%20AUTOMATION-8B5CF6?style=flat-square" alt="AI ML Automation" />
 
----
+<b><code>AI · ML · AUTOMATION</code></b><br />
+<small>No AI/ML runtime declared. Historical imagery may be reconstructed/generated only as clearly interpretive media; it cannot impersonate documentary evidence.</small>
 
-### <code>08 / VERIFICATION PROTOCOL</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-| Command | What it verifies |
-| --- | --- |
-| <code>pnpm run lint</code> | Biome checks across capsule source and scripts. |
-| <code>pnpm run typecheck</code> | TypeScript contracts. |
-| <code>pnpm run test</code> | Unit tests, architecture boundaries, historical-integrity checks, and token checks. |
-| <code>pnpm run test:e2e</code> | Browser evidence across desktop and mobile flows (Next dev). |
-| <code>pnpm run test:e2e:production</code> | Production build + journey HTML boundary + production-motion Playwright. |
-| <code>pnpm run build</code> | Production build using webpack for a standalone-safe artifact. |
-| <code>pnpm run verify:production</code> | Historical-integrity verification against production-shaped data. |
-| <code>pnpm run deploy:dry-run</code> | Artifact, environment-contract, and client-secret-leak checks without production side effects. |
+<img src="https://img.shields.io/badge/05-DATABASE%20%26%20STORAGE-0EA5E9?style=flat-square" alt="Database & Storage" />
 
-The project build intentionally uses <code>next build --webpack</code>. The standalone verifier rejects symlinks in the capsule tree; webpack produces the same route surface without Turbopack's transitive server-package symlinks.
+<b><code>DATABASE & STORAGE</code></b><br />
+<small>PostgreSQL 18 · Payload PostgreSQL adapter · S3-compatible storage · MinIO local service · public/private bucket separation.</small>
 
-**Latest local evidence (2026-09-04):** typecheck passed; 91 Vitest tests passed; Biome completed with no errors and 24 pre-existing CSS warnings; and the webpack production build passed. Playwright was not rerun in that session because another local development server already held the required Next.js lock.
+</td>
+<td width="50%" valign="top">
 
----
+<img src="https://img.shields.io/badge/06-DEVOPS%20%C2%B7%20CLOUD%20%C2%B7%20INFRA-F59E0B?style=flat-square" alt="DevOps Cloud Infra" />
 
-### <code>09 / RELEASE POSTURE</code>
+<b><code>DEVOPS · CLOUD · INFRA</code></b><br />
+<small>pnpm workspace · Docker Compose · GitHub Actions workflow contracts · Vercel production context · capsule-local lifecycle scripts.</small>
 
-> [!IMPORTANT]
-> **IP / transaction status.** Original project works remain proprietary and Copyright © 2026 Ferdi Iskandar until a duly executed assignment becomes effective. The repository is being prepared for a contemplated **Full Assignment of Economic Rights** to Pemerintah Kota Kediri. Merely publishing this repository notice does not transfer ownership. Third-party software, media, archives, services, and marks remain governed by their own rights and licenses. See [docs/legal/](docs/legal/) and [LICENSE](LICENSE).
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-This repository is released as the **First Public Edition** of the project. It is a public reading experience, not a claim that all historical questions, media-rights work, accessibility review, or performance budgets are complete.
+<img src="https://img.shields.io/badge/07-TESTING%20%26%20QA-10B981?style=flat-square" alt="Testing & QA" />
 
-- Historical claims may be corrected or expanded as new review and evidence become available.
-- Artistic visualisations remain labelled as visualisations; they are not documentary proof.
-- The original research corpus remains preserved input, not automatically publishable content.
-- Private masters and rights documents never become public merely because a derivative is displayed.
-- A passing technical check proves only the behavior covered by that check; it is not institutional endorsement or historical certification.
+<b><code>TESTING & QA</code></b><br />
+<small>Biome · TypeScript · Vitest · module-boundary tests · historical-integrity tests · Playwright desktop/mobile/production motion · static production journey check.</small>
 
-For release scope and production acceptance, consult [the production authority](docs/production/00_IMPLEMENTATION_AUTHORITY.md) and [the visual acceptance record](docs/production/04_VISUAL_ACCEPTANCE.md).
+</td>
+<td width="50%" valign="top">
 
----
+<img src="https://img.shields.io/badge/08-SECURITY%20%26%20GOVERNANCE-EB5939?style=flat-square" alt="Security & Governance" />
 
-### <code>10 / READING AND CONTRIBUTION</code>
+<b><code>SECURITY & GOVERNANCE</code></b><br />
+<small>R2 project contract · human approval boundary · variable-only environment template · public/private media separation · provenance and rights controls · proprietary IP notice.</small>
 
-| Need | Read |
-| --- | --- |
-| Production authority and acceptance | [docs/production/](docs/production/) |
-| Scene-to-asset mapping | [scene manifest](docs/production/01_SCENE_MANIFEST.yaml) |
-| Narrative and transition definition | [production narrative](docs/production/08_MASTER_PRODUCTION_NARRATIVE.md) and [transition map](docs/production/03_TRANSITION_MAP.yaml) |
-| Local commands and project setup | [this README §07](#07--run-locally) |
-| Test layers, ports, and production motion | [docs/testing.md](docs/testing.md) |
-| IP assignment package and handover schedules | [docs/legal/](docs/legal/) |
-| Current proprietary/pending-assignment notice | [LICENSE](LICENSE) |
-
-Contributors must preserve the historical-integrity model, use capsule-local commands, and avoid introducing a dependency on the enclosing Monorepo. Do not treat the research corpus as production truth or place historical claims in animation code.
-
----
+</td>
+</tr>
+</table>
 
 <p align="center">
-  <b>Dedicated to Pemerintah Kota Kediri and the people who keep the city’s memory alive.</b><br />
-  Kediri — A Living Civilization · <a href="https://kediri.sentrahai.com/">kediri.sentrahai.com</a><br />
-  <sub><code>// history remains open to evidence, review, and correction.</code></sub>
+  <b>Architected and built by dr. Ferdi Iskandar (the Gaffer) · Sentra Artificial Intelligence.</b><br />
+  Kediri — A Living Civilization · evidence remains open to review, correction, and stronger sources.<br />
+  <sub><code>// the surface is documentation. the depth is running.</code></sub>
 </p>
