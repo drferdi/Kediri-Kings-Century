@@ -17,3 +17,12 @@ allowBuilds:
 # ditegakkan mekanis oleh apps/web/tests/architecture/module-boundaries.test.ts
 # (keputusan Chief G03, 2026-08-26).
 nodeLinker: hoisted
+
+overrides:
+  dompurify: 3.4.16
+  esbuild: 0.28.2
+  fast-copy: 3.1.0
+  fast-uri: 3.1.8
+  js-yaml: 4.3.2
+  source-map-js: 1.2.2
+  undici: 7.29.1
