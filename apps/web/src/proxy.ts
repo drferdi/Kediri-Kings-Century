@@ -2,8 +2,10 @@ import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
 const ACCESS_USERNAME = "kediri";
-const PASSWORD_SHA256 =
-  "eb718e98ac8323378995301619e0808294c4c42ee56924ecf6f356e097c63728";
+const ACCESS_ITERATIONS = 310000;
+const ACCESS_SALT_HEX = "b02d5566f0fef28fe372297b5fbee253";
+const ACCESS_HASH_HEX =
+  "27d146bb3c1d0d1935a466a4d3b350fbdfed924fc620b1a39a5ffb64791f1fc0";
 
 function trustedOfficialRuntime(): boolean {
   return process.env.VERCEL === "1" || process.env.GITHUB_ACTIONS === "true";
@@ -19,12 +21,31 @@ function constantTimeEqual(left: string, right: string): boolean {
   return difference === 0;
 }
 
-async function sha256Hex(value: string): Promise<string> {
-  const digest = await crypto.subtle.digest(
-    "SHA-256",
-    new TextEncoder().encode(value),
+function hexBytes(value: string): Uint8Array {
+  return Uint8Array.from(
+    value.match(/.{2}/gu)?.map((byte) => Number.parseInt(byte, 16)) ?? [],
   );
-  return Array.from(new Uint8Array(digest), (byte) =>
+}
+
+async function passwordVerifierHex(value: string): Promise<string> {
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(value),
+    "PBKDF2",
+    false,
+    ["deriveBits"],
+  );
+  const bits = await crypto.subtle.deriveBits(
+    {
+      name: "PBKDF2",
+      hash: "SHA-256",
+      salt: hexBytes(ACCESS_SALT_HEX),
+      iterations: ACCESS_ITERATIONS,
+    },
+    key,
+    256,
+  );
+  return Array.from(new Uint8Array(bits), (byte) =>
     byte.toString(16).padStart(2, "0"),
   ).join("");
 }
@@ -61,7 +82,7 @@ export async function proxy(request: NextRequest): Promise<NextResponse> {
   const localPassword = process.env.KEDIRI_REPO_PASSWORD;
   if (
     localPassword &&
-    constantTimeEqual(await sha256Hex(localPassword), PASSWORD_SHA256)
+    constantTimeEqual(await passwordVerifierHex(localPassword), ACCESS_HASH_HEX)
   ) {
     return NextResponse.next();
   }
@@ -73,8 +94,8 @@ export async function proxy(request: NextRequest): Promise<NextResponse> {
   if (
     credentials?.username === ACCESS_USERNAME &&
     constantTimeEqual(
-      await sha256Hex(credentials.password),
-      PASSWORD_SHA256,
+      await passwordVerifierHex(credentials.password),
+      ACCESS_HASH_HEX,
     )
   ) {
     return NextResponse.next();
