@@ -9,10 +9,12 @@
     "node": ">=24.18.0 <25"
   },
   "scripts": {
+    "preinstall": "node scripts/repo-access.mjs",
+    "predev": "node scripts/repo-access.mjs",
     "dev": "pnpm --filter @kediri/web dev",
     "lint": "pnpm -r lint && biome check scripts",
     "typecheck": "pnpm -r typecheck",
-    "test": "pnpm -r test && node scripts/check-tokens.mjs",
+    "test": "node --test scripts/repo-access.test.mjs && pnpm -r test && node scripts/check-tokens.mjs",
     "test:e2e": "pnpm --filter @kediri/web e2e",
     "test:e2e:production": "pnpm --filter @kediri/web e2e:production",
     "test:e2e:production:built": "node scripts/check-production-journey.mjs && pnpm --filter @kediri/web e2e:production:built",
@@ -23,7 +25,14 @@
     "db:migrate": "node scripts/payload-cli.mjs migrate",
     "db:seed": "node scripts/payload-cli.mjs seed",
     "cms:types": "node scripts/payload-cli.mjs types",
-    "verify:production": "node scripts/payload-cli.mjs verify-production"
+    "verify:production": "node scripts/payload-cli.mjs verify-production",
+    "prebuild": "node scripts/repo-access.mjs",
+    "prestart": "node scripts/repo-access.mjs",
+    "predeploy:dry-run": "node scripts/repo-access.mjs",
+    "predb:migrate": "node scripts/repo-access.mjs",
+    "predb:seed": "node scripts/repo-access.mjs",
+    "precms:types": "node scripts/repo-access.mjs",
+    "preverify:production": "node scripts/repo-access.mjs"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.7"
