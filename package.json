@@ -10,7 +10,6 @@
   },
   "scripts": {
     "preinstall": "node scripts/repo-access.mjs",
-    "predev": "node scripts/repo-access.mjs",
     "dev": "pnpm --filter @kediri/web dev",
     "lint": "pnpm -r lint && biome check scripts",
     "typecheck": "pnpm -r typecheck",
@@ -26,7 +25,6 @@
     "db:seed": "node scripts/payload-cli.mjs seed",
     "cms:types": "node scripts/payload-cli.mjs types",
     "verify:production": "node scripts/payload-cli.mjs verify-production",
-    "prebuild": "node scripts/repo-access.mjs",
     "prestart": "node scripts/repo-access.mjs",
     "predeploy:dry-run": "node scripts/repo-access.mjs",
     "predb:migrate": "node scripts/repo-access.mjs",
