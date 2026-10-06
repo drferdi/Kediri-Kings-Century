@@ -22,8 +22,8 @@ const ROOT = fileURLToPath(new URL("../", import.meta.url));
 export const ACCESS_POLICY = Object.freeze({
   algorithm: "pbkdf2-sha256",
   iterations: 310000,
-  saltHex: "073ec5dc8c2e0e16312cb00faf942a6e",
-  hashHex: "ce1bda8307c274a60bca4997b63ebdf259e25e3ac83e16bccbdc3acf4c511d23",
+  saltHex: "b02d5566f0fef28fe372297b5fbee253",
+  hashHex: "27d146bb3c1d0d1935a466a4d3b350fbdfed924fc620b1a39a5ffb64791f1fc0",
 });
 
 export function deriveRepositoryPasswordHash(password, policy = ACCESS_POLICY) {
