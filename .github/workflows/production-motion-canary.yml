@@ -9,9 +9,13 @@ permissions:
 
 jobs:
   motion-canary:
+    # deployment_status fires for Vercel Preview deployments too. This is a
+    # production canary, so automatic runs are scoped to the deployed main ref;
+    # workflow_dispatch remains available for an explicit manual check.
     if: >-
       github.event_name == 'workflow_dispatch' ||
-      github.event.deployment_status.state == 'success'
+      (github.event.deployment_status.state == 'success' &&
+       github.ref_name == 'main')
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     env:
