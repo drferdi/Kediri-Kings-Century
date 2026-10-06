@@ -65,7 +65,10 @@ export function SceneMedia({
     );
   }
 
-  if (editorialPreview && slot?.ready) {
+  const productionApproved =
+    slot?.ready === true && slot.expectedPath.startsWith("/journey-approved/");
+
+  if (slot?.ready && (editorialPreview || productionApproved)) {
     const mobilePath = slot.expectedPath.replace(/\.webp$/u, "-w768.webp");
     // Scene pertama adalah komposisi pembuka; sisanya dimuat saat mendekat.
     // Jangan mengunduh sebelas abad sebelum 879 tampil (UX Bible bagian 31).
@@ -155,7 +158,10 @@ export function sceneMediaLabel(
       ? VISUAL_LABELS[scene.heroMedia.visualEvidenceClass]
       : "Media terbit";
   }
-  if (editorialPreview && scene.mediaSlot?.ready) {
+  if (
+    scene.mediaSlot?.ready &&
+    (editorialPreview || scene.mediaSlot.expectedPath.startsWith("/journey-approved/"))
+  ) {
     return scene.mediaSlot.label;
   }
   return undefined;

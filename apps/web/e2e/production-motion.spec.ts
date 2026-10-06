@@ -7,6 +7,35 @@ type MotionDebugHandle = {
 
 type MotionWindow = Window & { __kediriMotion?: MotionDebugHandle };
 
+const CANONICAL_SCENE_ORDER = [
+  "879-first-mark",
+  "921-kadhiri",
+  "1015-name-endures",
+  "1042-river-divides-kingdom",
+  "daha-centre-of-power",
+  "1135-panjalu-jayati",
+  "1157-words-become-monuments",
+  "panji-story-left-kediri",
+  "1222-ganter",
+  "1292-the-return",
+  "1293-last-kingdom",
+  "jayabaya-after-jayabaya",
+  "shadow-archive",
+  "1678-river-fortress",
+  "sugar-changes-land",
+  "1869-brantas-bridge",
+  "1906-city-on-paper",
+  "1912-bridge-lift",
+  "people-between-monuments",
+  "1942-world-war-arrives",
+  "1947-1948-sugar-weapons",
+  "1950-city-republic",
+  "1958-from-1000-square-metres",
+  "1990-kediri-to-market",
+  "two-bridges-two-centuries",
+  "2024-2026-river-to-runway",
+] as const;
+
 test("production Journey boots its motion runtime without client or chunk failures", async ({
   page,
 }, testInfo) => {
@@ -33,6 +62,16 @@ test("production Journey boots its motion runtime without client or chunk failur
 
   await page.goto("/journey?motionDebug=1", { waitUntil: "domcontentloaded" });
   await expect(page.locator("#historical-content")).toBeVisible();
+
+  const renderedSceneOrder = await page
+    .locator("#historical-content section.scene")
+    .evaluateAll((sections) => sections.map((section) => section.id));
+  expect(renderedSceneOrder).toEqual(CANONICAL_SCENE_ORDER);
+  await expect(
+    page.locator(
+      '#historical-content section.scene .stage-media[data-media-state="ready"]',
+    ),
+  ).toHaveCount(26);
   const editorialPreviewMarkup = await page
     .locator(
       '[src*="/api/editorial-preview/"], [srcset*="/api/editorial-preview/"]',

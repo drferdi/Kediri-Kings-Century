@@ -2,14 +2,13 @@ import type { ActDto, JourneyManifestDto, SceneDto } from "./dto";
 import { PUBLIC_EVIDENCE_LANGUAGE } from "./public-evidence-language";
 
 /**
- * Snapshot editorial naskah produksi yang ditetapkan Chief pada 2026-08-26.
+ * Kanon presentasi Journey yang ditetapkan Chief: 9 act, 26 scene, urutan,
+ * copy, visual intent, dan anchor yang stabil.
  *
  * Ini bukan sumber fakta baru dan tidak pernah diimpor oleh modul motion.
- * Ia menyiapkan komposisi Journey lengkap sambil CMS masih memuat tiga irisan
- * vertikal yang telah ditinjau. Relasi event, bukti, dan media yang sudah
- * terbit tetap datang dari CMS dan digabungkan berdasarkan anchor scene.
- * Setelah seluruh record editorial masuk CMS, snapshot ini dapat dipensiunkan
- * tanpa mengubah komponen atau koreografi.
+ * Relasi event, bukti, dan media yang sudah terbit tetap datang dari CMS dan
+ * dioverlay berdasarkan slug. Dengan begitu CMS memegang data terkelola,
+ * sementara urutan sinematik tidak berubah akibat kelengkapan record CMS.
  */
 
 export interface FramingMedia {
@@ -164,7 +163,7 @@ const EDITORIAL_DRAFT_STATUS = PUBLIC_EVIDENCE_LANGUAGE.editorialDraft;
 function scene(input: SceneInput): SceneDto {
   const expectedPath =
     input.imagePath ??
-    `/api/editorial-preview/${String(input.order).padStart(2, "0")}-${input.slug}.webp`;
+    `/journey-approved/${String(input.order).padStart(2, "0")}-${input.slug}.webp`;
   return {
     id: `production-${input.slug}`,
     slug: input.slug,
@@ -195,7 +194,7 @@ function scene(input: SceneInput): SceneDto {
       videoPath: input.videoPath,
       altText: input.previewAltText ?? "",
       label: input.imageReady
-        ? "Visualisasi artistik · pratinjau editorial"
+        ? "Visualisasi artistik"
         : "Media utama sedang dipersiapkan",
     },
   };
@@ -893,8 +892,14 @@ const PREVIEW_PATH_PREFIX = "/api/editorial-preview/";
 export function editorialPreviewAssetNames(): ReadonlySet<string> {
   const names = new Set<string>();
   const add = (path: string | undefined): void => {
-    if (!path?.startsWith(PREVIEW_PATH_PREFIX)) return;
-    const filename = path.slice(PREVIEW_PATH_PREFIX.length);
+    if (!path) return;
+    const approvedPrefix = "/journey-approved/";
+    const filename = path.startsWith(PREVIEW_PATH_PREFIX)
+      ? path.slice(PREVIEW_PATH_PREFIX.length)
+      : path.startsWith(approvedPrefix)
+        ? path.slice(approvedPrefix.length)
+        : undefined;
+    if (!filename) return;
     names.add(filename);
     names.add(filename.replace(/\.webp$/u, "-w768.webp"));
   };

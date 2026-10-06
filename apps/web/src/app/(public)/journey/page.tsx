@@ -23,7 +23,6 @@ import { ReadoutBatch } from "../../../components/journey/readout-batch";
 import { SceneOpeningAddress } from "../../../components/journey/scene-opening-address";
 import { SceneSection } from "../../../components/journey/scene-section";
 import { SiteFooter } from "../../../components/site-footer";
-import { editorialPreviewAllowed } from "../../../content/editorial-preview";
 import { JOURNEY_MILESTONES } from "../../../content/journey-milestones";
 import {
   composeProductionJourney,
@@ -44,8 +43,8 @@ import { OPEN_GRAPH_BASE, SITE_TITLE, TWITTER_BASE } from "../../../site";
  * dan bila ia gagal dimuat, /explore/timeline memuat kronologi yang sama.
  */
 /**
- * Latar kartu judul act, mode pratinjau editorial saja (direktif Chief
- * 2026-08-28): "Panjalu Rises" memakai citra yang semula milik scene Daha —
+ * Latar kartu judul act memakai aset produksi yang sudah dipromosikan
+ * ke /journey-approved/. "Panjalu Rises" memakai citra yang semula milik scene Daha —
  * scene Daha sendiri kini bergerak sebagai video dahanasada. Babak I kembali
  * menjadi kartu tipografis agar Prolog water→copper tidak dipotong footage
  * Jayabaya sebelum pintu kronologi 879.
@@ -57,7 +56,7 @@ const ACT_HEADER_MEDIA: Readonly<Record<string, string>> = {
    * Chief 2026-09-04), dan menayangkannya dua kali dalam satu halaman
    * membuat kartu judul ini terbaca sebagai pengulangan, bukan babak baru.
    */
-  "panjalu-rises": "/api/editorial-preview/05-daha-centre-of-power.webp",
+  "panjalu-rises": "/journey-approved/05-daha-centre-of-power.webp",
 };
 
 /**
@@ -68,10 +67,10 @@ const ACT_HEADER_MEDIA: Readonly<Record<string, string>> = {
  *   - Babak III (teks panjang tanpa media): `scrubWords` (sorot kata mengikuti gulir);
  *   - selebihnya: `card`.
  */
-function actHeaderMode(slug: string, preview: boolean): ActHeaderMode {
+function actHeaderMode(slug: string): ActHeaderMode {
   if (slug === "the-throne-breaks") return "scrubWords";
   if (slug === RIGHT_LAYOUT_FROM) return "slide";
-  if (preview && ACT_HEADER_MEDIA[slug] && slug !== "the-land-remembers") {
+  if (ACT_HEADER_MEDIA[slug] && slug !== "the-land-remembers") {
     return "wipe";
   }
   return "card";
@@ -112,14 +111,11 @@ export const metadata: Metadata = {
 
 export default async function JourneyPage(): Promise<ReactElement> {
   const publishedManifest = await getJourneyManifest();
-  // Naskah penuh adalah ruang kerja desain lokal, bukan shortcut publikasi.
-  // Build produksi hanya merender scene yang sudah lolos CMS beserta rantai
-  // bukti dan tata kelola medianya. Vercel Production tetap tertutup walaupun
-  // flag editorial tertinggal aktif di environment deployment.
-  const editorialPreview = editorialPreviewAllowed();
-  const manifest = editorialPreview
-    ? composeProductionJourney(publishedManifest)
-    : publishedManifest;
+  // Urutan, copy, dan visual intent Journey mengikuti kanon produksi 26 scene.
+  // Relasi event, bukti, dan media yang sudah terbit tetap dioverlay dari CMS
+  // berdasarkan slug. Aset fallback produksi dilayani dari /journey-approved/,
+  // bukan dari route editorial-preview yang tetap tertutup di production.
+  const manifest = composeProductionJourney(publishedManifest);
   const rightLayoutIndex = manifest.acts.findIndex(
     (act) => act.slug === RIGHT_LAYOUT_FROM,
   );
@@ -132,11 +128,6 @@ export default async function JourneyPage(): Promise<ReactElement> {
       orderedScenes[index + 1]?.scene.slug,
     ]),
   );
-  const publishedRange =
-    orderedScenes.length > 0
-      ? `${orderedScenes[0]?.scene.dateDisplay} — ${orderedScenes.at(-1)?.scene.dateDisplay}`
-      : "Arsip terbit";
-
   const timelineEntries: TimelineEntry[] = orderedScenes.map(
     ({ scene, actTitle }) => ({
       slug: scene.slug,
@@ -191,19 +182,7 @@ export default async function JourneyPage(): Promise<ReactElement> {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main id="historical-content">
-            {editorialPreview ? (
-              <PrologueScene narrative={PRODUCTION_PROLOGUE} />
-            ) : (
-              <header className="journey-intro">
-                <p className="eyebrow">Kediri · Kronologi terbit</p>
-                <h1 className="title-page">Perjalanan</h1>
-                <p className="journey-range">{publishedRange}</p>
-                <p className="lead measure">
-                  Setiap scene di halaman ini telah diterbitkan melalui arsip
-                  dan rantai bukti Kediri.
-                </p>
-              </header>
-            )}
+            <PrologueScene narrative={PRODUCTION_PROLOGUE} />
 
             {manifest.acts.map((act, actIndex) => (
               <section
@@ -219,21 +198,21 @@ export default async function JourneyPage(): Promise<ReactElement> {
               >
                 <header
                   data-header-media={
-                    editorialPreview && ACT_HEADER_MEDIA[act.slug]
+                    ACT_HEADER_MEDIA[act.slug]
                       ? "true"
                       : undefined
                   }
                   data-opening-handoff-source={
-                    editorialPreview && act.slug === "the-land-remembers"
+                    act.slug === "the-land-remembers"
                       ? "true"
                       : undefined
                   }
                 >
                   <ActHeaderReveal
                     enabled
-                    mode={actHeaderMode(act.slug, editorialPreview)}
+                    mode={actHeaderMode(act.slug)}
                   >
-                    {editorialPreview && ACT_HEADER_MEDIA[act.slug] ? (
+                    {ACT_HEADER_MEDIA[act.slug] ? (
                       <span className="act-header-media" aria-hidden="true">
                         {ACT_HEADER_MEDIA[act.slug]?.endsWith(".mp4") ? (
                           <video
@@ -245,7 +224,7 @@ export default async function JourneyPage(): Promise<ReactElement> {
                             preload="metadata"
                           />
                         ) : (
-                          // biome-ignore lint/performance/noImgElement: aset pratinjau lokal disajikan route sendiri tanpa loader tambahan.
+                          // biome-ignore lint/performance/noImgElement: aset produksi statis disajikan langsung tanpa loader tambahan.
                           <img
                             src={ACT_HEADER_MEDIA[act.slug]}
                             alt=""
@@ -269,13 +248,13 @@ export default async function JourneyPage(): Promise<ReactElement> {
                           </p>
                         ))
                       : null}
-                    {editorialPreview && act.slug === "the-land-remembers" ? (
+                    {act.slug === "the-land-remembers" ? (
                       <ActMilestoneTicker milestones={JOURNEY_MILESTONES} />
                     ) : null}
                   </ActHeaderReveal>
                 </header>
 
-                {editorialPreview && act.slug === "the-land-remembers" ? (
+                {act.slug === "the-land-remembers" ? (
                   <SceneOpeningAddress />
                 ) : null}
 
@@ -284,9 +263,8 @@ export default async function JourneyPage(): Promise<ReactElement> {
                     <SceneSection
                       scene={scene}
                       nextSceneSlug={nextSceneBySlug.get(scene.slug)}
-                      editorialPreview={editorialPreview}
                     />
-                    {editorialPreview && scene.slug === "921-kadhiri" ? (
+                    {scene.slug === "921-kadhiri" ? (
                       <PrologueInscriptionInterlude />
                     ) : null}
                   </Fragment>
@@ -294,9 +272,8 @@ export default async function JourneyPage(): Promise<ReactElement> {
               </section>
             ))}
 
-            {editorialPreview ? (
-              <FinaleMotion>
-                <section
+            <FinaleMotion>
+              <section
                   className="journey-finale"
                   aria-labelledby="journey-finale"
                 >
@@ -329,9 +306,8 @@ export default async function JourneyPage(): Promise<ReactElement> {
                       <p>Kota ini terus berlanjut.</p>
                     </div>
                   </div>
-                </section>
-              </FinaleMotion>
-            ) : null}
+              </section>
+            </FinaleMotion>
           </main>
           {/* Entrance strip arsip (26×) lewat ScrollTrigger.batch, satu pemilik. */}
           <ReadoutBatch />
