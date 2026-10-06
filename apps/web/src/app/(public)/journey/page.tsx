@@ -43,8 +43,8 @@ import { OPEN_GRAPH_BASE, SITE_TITLE, TWITTER_BASE } from "../../../site";
  * dan bila ia gagal dimuat, /explore/timeline memuat kronologi yang sama.
  */
 /**
- * Latar kartu judul act, mode pratinjau editorial saja (direktif Chief
- * 2026-08-28): "Panjalu Rises" memakai citra yang semula milik scene Daha —
+ * Latar kartu judul act memakai aset produksi yang sudah dipromosikan
+ * ke /journey-approved/. "Panjalu Rises" memakai citra yang semula milik scene Daha —
  * scene Daha sendiri kini bergerak sebagai video dahanasada. Babak I kembali
  * menjadi kartu tipografis agar Prolog water→copper tidak dipotong footage
  * Jayabaya sebelum pintu kronologi 879.
@@ -224,7 +224,7 @@ export default async function JourneyPage(): Promise<ReactElement> {
                             preload="metadata"
                           />
                         ) : (
-                          // biome-ignore lint/performance/noImgElement: aset pratinjau lokal disajikan route sendiri tanpa loader tambahan.
+                          // biome-ignore lint/performance/noImgElement: aset produksi statis disajikan langsung tanpa loader tambahan.
                           <img
                             src={ACT_HEADER_MEDIA[act.slug]}
                             alt=""
@@ -273,7 +273,7 @@ export default async function JourneyPage(): Promise<ReactElement> {
             ))}
 
             <FinaleMotion>
-                <section
+              <section
                   className="journey-finale"
                   aria-labelledby="journey-finale"
                 >
@@ -306,8 +306,8 @@ export default async function JourneyPage(): Promise<ReactElement> {
                       <p>Kota ini terus berlanjut.</p>
                     </div>
                   </div>
-                </section>
-              </FinaleMotion>
+              </section>
+            </FinaleMotion>
           </main>
           {/* Entrance strip arsip (26×) lewat ScrollTrigger.batch, satu pemilik. */}
           <ReadoutBatch />
