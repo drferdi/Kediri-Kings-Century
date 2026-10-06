@@ -254,47 +254,24 @@ A passing visual result is insufficient. Claims, media rights, module boundaries
 <summary><b><code>LIVE TOPOLOGY // SYSTEM RELATION MAP</code></b></summary>
 
 ~~~mermaid
-%%{init: {'theme':'base','flowchart':{'curve':'basis','nodeSpacing':34,'rankSpacing':46},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'13px','lineColor':'#64748B','clusterBkg':'#F8FAFC','clusterBorder':'#CBD5E1'}}}%%
+%%{init: {'theme':'base','flowchart':{'curve':'linear','nodeSpacing':42,'rankSpacing':58},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'14px','lineColor':'#94A3B8'}}}%%
 flowchart LR
-  subgraph H["HUMAN AUTHORITY"]
-    REVIEWER["Historical Reviewer"]
-  end
+  A(["Research Corpus"])
+  B(["Evidence Model"])
+  C{"Human Review"}
+  D(["Public Experience"])
 
-  subgraph E["EDITORIAL PLANE"]
-    CMS["Payload Admin"]
-    MODEL["Evidence + Content Model"]
-    GATE{"Integrity Gate"}
-  end
+  A --> B --> C --> D
 
-  subgraph D["DATA PLANE"]
-    DB[("PostgreSQL")]
-    MEDIA[("S3 / Media")]
-  end
+  classDef source fill:#334155,stroke:#0F172A,stroke-width:2px,color:#FFFFFF;
+  classDef core fill:#2563EB,stroke:#1D4ED8,stroke-width:2px,color:#FFFFFF;
+  classDef human fill:#D97706,stroke:#B45309,stroke-width:2px,color:#FFFFFF;
+  classDef output fill:#0F766E,stroke:#115E59,stroke-width:2px,color:#FFFFFF;
 
-  subgraph X["PUBLIC EXPERIENCE"]
-    SERVER["Next.js Server"]
-    PUBLIC["Journey · Explore · Archive · Sources"]
-    READER["Public Reader"]
-  end
-
-  REVIEWER --> CMS --> MODEL --> GATE
-  GATE --> DB
-  DB --> SERVER
-  MEDIA --> SERVER
-  SERVER --> PUBLIC --> READER
-  READER -. scrutiny / correction .-> REVIEWER
-
-  classDef human fill:#FEF3C7,stroke:#D97706,stroke-width:1.5px,color:#1F2937;
-  classDef system fill:#EEF2FF,stroke:#4F46E5,stroke-width:1.5px,color:#1F2937;
-  classDef verified fill:#ECFDF5,stroke:#0F766E,stroke-width:1.5px,color:#1F2937;
-  classDef data fill:#F8FAFC,stroke:#64748B,stroke-width:1.5px,color:#1F2937;
-  classDef public fill:#F0FDFA,stroke:#0D9488,stroke-width:1.5px,color:#1F2937;
-
-  class REVIEWER human;
-  class CMS,MODEL system;
-  class GATE verified;
-  class DB,MEDIA data;
-  class SERVER,PUBLIC,READER public;
+  class A source;
+  class B core;
+  class C human;
+  class D output;
 ~~~
 
 </details>
@@ -379,49 +356,28 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 <summary><b><code>RUNTIME TOPOLOGY // CONTROL & DATA PLANE</code></b></summary>
 
 ~~~mermaid
-%%{init: {'theme':'base','flowchart':{'curve':'basis','nodeSpacing':30,'rankSpacing':44},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'13px','lineColor':'#64748B','clusterBkg':'#F8FAFC','clusterBorder':'#CBD5E1'}}}%%
+%%{init: {'theme':'base','flowchart':{'curve':'linear','nodeSpacing':38,'rankSpacing':54},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'14px','lineColor':'#94A3B8'}}}%%
 flowchart LR
-  subgraph AUTHOR["AUTHORING"]
-    REVIEWER["Human Review"]
-    ADMIN["Payload Admin"]
-  end
+  A(["Payload CMS"])
+  B[("PostgreSQL")]
+  C(["Next.js"])
+  D(["Public Reader"])
+  E[("S3 Media")]
+  F{"Verification"}
 
-  subgraph CORE["CONTENT CORE"]
-    VALIDATE{"Validation"}
-    DB[("PostgreSQL")]
-    S3[("S3 Media")]
-  end
+  A --> B --> C --> D
+  E --> C
+  F -. gates .-> C
 
-  subgraph DELIVERY["DELIVERY"]
-    NEXT["Next.js 16"]
-    HTML["Semantic HTML"]
-    MOTION["GSAP Motion"]
-  end
+  classDef system fill:#2563EB,stroke:#1D4ED8,stroke-width:2px,color:#FFFFFF;
+  classDef data fill:#334155,stroke:#0F172A,stroke-width:2px,color:#FFFFFF;
+  classDef verify fill:#D97706,stroke:#B45309,stroke-width:2px,color:#FFFFFF;
+  classDef output fill:#0F766E,stroke:#115E59,stroke-width:2px,color:#FFFFFF;
 
-  subgraph QA["QUALITY GATE"]
-    VERIFY["Vitest · Playwright · Build"]
-  end
-
-  READER["Public Reader"]
-
-  REVIEWER --> ADMIN --> VALIDATE --> DB --> NEXT
-  S3 --> NEXT
-  NEXT --> HTML --> READER
-  HTML --> MOTION --> READER
-  VERIFY -. verifies .-> VALIDATE
-  VERIFY -. verifies .-> NEXT
-
-  classDef human fill:#FEF3C7,stroke:#D97706,stroke-width:1.5px,color:#1F2937;
-  classDef system fill:#EEF2FF,stroke:#4F46E5,stroke-width:1.5px,color:#1F2937;
-  classDef verified fill:#ECFDF5,stroke:#0F766E,stroke-width:1.5px,color:#1F2937;
-  classDef data fill:#F8FAFC,stroke:#64748B,stroke-width:1.5px,color:#1F2937;
-  classDef public fill:#F0FDFA,stroke:#0D9488,stroke-width:1.5px,color:#1F2937;
-
-  class REVIEWER human;
-  class ADMIN,NEXT,HTML,MOTION system;
-  class VALIDATE,VERIFY verified;
-  class DB,S3 data;
-  class READER public;
+  class A,C system;
+  class B,E data;
+  class F verify;
+  class D output;
 ~~~
 
 </details>
@@ -435,36 +391,29 @@ flowchart LR
 ### <code>05 / SIGNAL PATH</code>
 
 ~~~mermaid
-%%{init: {'theme':'base','flowchart':{'curve':'basis','nodeSpacing':28,'rankSpacing':42},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'13px','lineColor':'#64748B'}}}%%
+%%{init: {'theme':'base','flowchart':{'curve':'linear','nodeSpacing':34,'rankSpacing':52},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'14px','lineColor':'#94A3B8'}}}%%
 flowchart LR
-  CORPUS[("Research Corpus")]
-  DRAFT["Editorial Draft"]
-  CLAIM["Evidence Claim"]
-  SOURCE["Evidence Link + Source"]
-  GATE{"Integrity / Rights Gate"}
-  REVIEW["Human Historical Review"]
-  DTO["Public DTO"]
-  OUTPUT["Journey · Explore · Archive · Sources"]
-  HOLD["Hold · Correct · Reject"]
+  A(["Research"])
+  B(["Claim"])
+  C(["Evidence"])
+  D{"Review"}
+  E(["Publish"])
+  X(["Hold / Correct"])
 
-  CORPUS --> DRAFT --> CLAIM --> SOURCE --> GATE
-  GATE --> REVIEW --> DTO --> OUTPUT
-  GATE -. insufficient evidence .-> HOLD
-  REVIEW -. not approved .-> HOLD
+  A --> B --> C --> D --> E
+  D -. unresolved .-> X
 
-  classDef data fill:#F8FAFC,stroke:#64748B,stroke-width:1.5px,color:#1F2937;
-  classDef system fill:#EEF2FF,stroke:#4F46E5,stroke-width:1.5px,color:#1F2937;
-  classDef gate fill:#ECFDF5,stroke:#0F766E,stroke-width:1.5px,color:#1F2937;
-  classDef human fill:#FEF3C7,stroke:#D97706,stroke-width:1.5px,color:#1F2937;
-  classDef public fill:#F0FDFA,stroke:#0D9488,stroke-width:1.5px,color:#1F2937;
-  classDef exception fill:#FFF1F2,stroke:#BE123C,stroke-width:1.5px,color:#1F2937;
+  classDef source fill:#334155,stroke:#0F172A,stroke-width:2px,color:#FFFFFF;
+  classDef core fill:#2563EB,stroke:#1D4ED8,stroke-width:2px,color:#FFFFFF;
+  classDef human fill:#D97706,stroke:#B45309,stroke-width:2px,color:#FFFFFF;
+  classDef output fill:#0F766E,stroke:#115E59,stroke-width:2px,color:#FFFFFF;
+  classDef stop fill:#B91C1C,stroke:#991B1B,stroke-width:2px,color:#FFFFFF;
 
-  class CORPUS data;
-  class DRAFT,CLAIM,SOURCE,DTO system;
-  class GATE gate;
-  class REVIEW human;
-  class OUTPUT public;
-  class HOLD exception;
+  class A source;
+  class B,C core;
+  class D human;
+  class E output;
+  class X stop;
 ~~~
 
 The repository's production authority makes the human boundary explicit: implementation agents may mark cinematic work <code>READY_FOR_REVIEW</code>, but they may not mark it <code>APPROVED</code>. Final approval belongs to the Chief/reviewer. Historical text carrying factual or epistemic meaning must remain semantic DOM content rather than being baked into raster assets, and interpretive/generated imagery may not impersonate documentary evidence.
@@ -512,31 +461,29 @@ The public product is configured around <code>kediri.sentrahai.com</code> and Ve
 <summary><b><code>PROMOTION STATE // DEVELOPMENT → PUBLIC PRODUCTION</code></b></summary>
 
 ~~~mermaid
-%%{init: {'theme':'base','flowchart':{'curve':'basis','nodeSpacing':26,'rankSpacing':40},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'13px','lineColor':'#64748B'}}}%%
+%%{init: {'theme':'base','flowchart':{'curve':'linear','nodeSpacing':34,'rankSpacing':52},'themeVariables':{'fontFamily':'Inter, ui-sans-serif, system-ui','fontSize':'14px','lineColor':'#94A3B8'}}}%%
 flowchart LR
-  DEV["Development"]
-  STATIC["Lint · Typecheck · Unit"]
-  HIST["Historical Integrity"]
-  BUILD["Production Build"]
-  BROWSER["Playwright / Motion"]
-  REVIEW{"Human Review"}
-  PROD["Public Production"]
-  ROLLBACK["Correct / Rollback"]
+  A(["Develop"])
+  B(["Verify"])
+  C(["Build"])
+  D{"Human Review"}
+  E(["Production"])
+  R(["Rollback"])
 
-  DEV --> STATIC --> HIST --> BUILD --> BROWSER --> REVIEW --> PROD
-  PROD -. disputed / failed signal .-> ROLLBACK --> DEV
+  A --> B --> C --> D --> E
+  E -. failure .-> R --> A
 
-  classDef system fill:#EEF2FF,stroke:#4F46E5,stroke-width:1.5px,color:#1F2937;
-  classDef verified fill:#ECFDF5,stroke:#0F766E,stroke-width:1.5px,color:#1F2937;
-  classDef human fill:#FEF3C7,stroke:#D97706,stroke-width:1.5px,color:#1F2937;
-  classDef public fill:#F0FDFA,stroke:#0D9488,stroke-width:1.5px,color:#1F2937;
-  classDef exception fill:#FFF1F2,stroke:#BE123C,stroke-width:1.5px,color:#1F2937;
+  classDef core fill:#2563EB,stroke:#1D4ED8,stroke-width:2px,color:#FFFFFF;
+  classDef verify fill:#334155,stroke:#0F172A,stroke-width:2px,color:#FFFFFF;
+  classDef human fill:#D97706,stroke:#B45309,stroke-width:2px,color:#FFFFFF;
+  classDef output fill:#0F766E,stroke:#115E59,stroke-width:2px,color:#FFFFFF;
+  classDef stop fill:#B91C1C,stroke:#991B1B,stroke-width:2px,color:#FFFFFF;
 
-  class DEV,BUILD system;
-  class STATIC,HIST,BROWSER verified;
-  class REVIEW human;
-  class PROD public;
-  class ROLLBACK exception;
+  class A,C core;
+  class B verify;
+  class D human;
+  class E output;
+  class R stop;
 ~~~
 
 </details>
