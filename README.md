@@ -1,6 +1,6 @@
 <table width="100%">
 <tr>
-<td width="27%" align="center" valign="middle" style="font-size:15px; line-height:23px;">
+<td width="27%" align="center" valign="middle" style="font-size:15px;">
 
 <img src="https://i.ibb.co.com/0pcrZTSv/Chat-GPT-Image-Sep-4-2026-06-29-17-AM-removebg-preview.png" alt="Kediri — A Living Civilization" width="108" />
 <br />
@@ -11,7 +11,7 @@ Co-Architect · <b>dr. Novia Dwi Anggraini</b><br />
 <img src="https://img.shields.io/badge/879%E2%86%922026-5B8CFF?style=flat-square" alt="879 to 2026" height="18" />
 
 </td>
-<td width="73%" valign="middle" style="font-size:15px; line-height:23px;">
+<td width="73%" valign="middle" style="font-size:15px;">
 
 <code>SENTRA / KEDIRI — A LIVING CIVILIZATION</code><br />
 
@@ -82,94 +82,94 @@ The runtime foundation is **Next.js 16 + React 19**, with **GSAP 3** used for ci
 
 <table width="100%">
 <tr>
-<th width="29%" align="left" style="font-size:15px; line-height:23px;"><b>Chapter</b></th>
-<th width="71%" align="left" style="font-size:15px; line-height:23px;"><b>Narrative scope</b></th>
+<th width="29%" align="left" style="font-size:15px;"><b>Chapter</b></th>
+<th width="71%" align="left" style="font-size:15px;"><b>Narrative scope</b></th>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>PROLOGUE · 2026</code></b><br />Scene 00 · Before We Go Back
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 The journey begins in the living city rather than in antiquity. Streets, markets, bridges, daily life, and the Brantas establish Kediri as a present-tense place before the timeline moves backward. The chapter introduces the central question—when does a city begin to become itself?—and defines 27 July 879 as a commemorative entry point rather than the birth of an unchanged modern municipality.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER I · THE LAND REMEMBERS</code></b><br />Scenes 01–04 · 879–1042
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 The first chapter establishes the oldest layers of memory: the 879 historical mark, the appearance of the name Kadhiri in 921, a 1015 continuity claim kept under Research Hold, and the 1042 division associated with Panjalu and Janggala. It also establishes a core editorial method: political history and later tradition can coexist, but they must not be presented as the same evidence class.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER II · PANJALU RISES</code></b><br />Scenes 05–08 · Daha, Jayabhaya, literature, Panji
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 Kediri emerges as a center of political and cultural gravity. Daha is presented through the evidence that survives rather than through invented reconstruction; the phrase Panjalu Jayati captures royal confidence; Bharatayuddha demonstrates the endurance of literary power; and the Panji tradition shows how stories rooted in the Kediri–Daha–Janggala world could travel far beyond the political borders that produced them.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER III · THE THRONE BREAKS</code></b><br />Scenes 09–11 · 1222–1293
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 This chapter follows the loss, brief return, and final end of Kediri's sovereign royal power. The 1222 Battle of Ganter marks the shift of political primacy toward Tumapel and later Singhasari; Jayakatwang's 1292 return to Daha briefly restores Kediri's political center; and the upheavals of 1293 lead into the rise of Majapahit. The governing idea is simple: political sovereignty can end without erasing a place, a name, or a cultural memory.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER IV · AFTER THE KINGS</code></b><br />Scenes 12–13 · memory, prophecy, folklore
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 After royal sovereignty, Kediri continues through memory. The historical Jayabhaya is separated from later prophetic traditions attributed to Jayabaya, while the Shadow Archive treats Calon Arang, Lembu Suro, Kelud traditions, curses, and urban legends as cultural evidence rather than supernatural proof. The chapter makes folklore legible as a record of meaning-making without relabeling it as verified history.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER V · EMPIRES CROSS THE BRANTAS</code></b><br />Scene 14 · 1678
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 The Brantas returns as a strategic actor during the Trunajaya-era conflict. The river that had already served as remembered boundary and connective geography becomes a military obstacle and defensive line. The chapter emphasizes continuity of place across changing political orders: the water remains while the powers fighting around it change.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER VI · IRON, SUGAR & THE MODERN CITY</code></b><br />Scenes 15–19 · industry, bridge, municipality, people
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 The narrative turns from courts to systems. Sugar reorganizes land, labor, roads, rail, storage, and trade; the 1869 bridge places iron across the Brantas and changes mobility; the 1906 colonial municipality formalizes a modern administrative city while preserving the contradiction of colonial inequality; a 1912 bridge-modification scene retains explicit archival uncertainty; and the final scene shifts attention from infrastructure to the ordinary people whose work, family life, markets, schools, faith, and movement actually make a city live.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER VII · OCCUPATION, REVOLUTION, REPUBLIC</code></b><br />Scenes 20–22 · 1942–1950
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 Global war reaches Kediri through the Japanese occupation, altering government, transport, production, and daily life. The revolutionary period then explores how civilian and industrial infrastructure may be repurposed by conflict, while the repository keeps the specific 1947–1948 weapons-production claim conditional until stronger evidence exists. The 1950 chapter places city government inside the Republic and explicitly distinguishes this layer from both the 879 commemorative anchor and the 1906 colonial municipality.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER VIII · THE INDUSTRIAL CITY</code></b><br />Scenes 23–24 · 1958–1990+
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 Post-independence Kediri gains a new center of gravity through large-scale industry. The chapter begins with a business growing from a limited physical footprint in 1958 and follows the broader transformation of employment, factories, neighborhoods, transport, production, and national capital-market connection. It presents industrial strength together with the strategic question created by concentration: prosperity and dependency can grow from the same economic root.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>CHAPTER IX · THE CITY CONNECTS</code></b><br />Scenes 25–26 · bridges to runway
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 Two bridges place two technological eras in one landscape: infrastructure once experienced as the future becomes heritage while newer crossings inherit its connective role. The sequence then moves from river, road, bridge, and rail toward Dhoho and air connectivity in 2024–2026. The technology changes, but the historical drive remains recognizable: Kediri continually reorganizes itself around the need to connect.
 </td>
 </tr>
 <tr>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 <b><code>FINALE · THE CITY CONTINUES</code></b><br />2026
 </td>
-<td valign="top" style="font-size:15px; line-height:23px;">
+<td valign="top" style="font-size:15px;">
 The experience returns to the present city and reframes what the audience has already seen. From the 879 commemorative anchor to 2026 lies 1,147 years—not 1,147 years of one uninterrupted government, but 1,147 years of layered memory from the date Kediri uses to mark its long historical journey. Kingdoms, administrations, bridges, industries, and generations change; the city continues.
 </td>
 </tr>
@@ -206,15 +206,15 @@ This repository contains the application, verification tooling, local infrastruc
 
 <table>
 <tr>
-<td width="33%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="33%" valign="top" style="font-size:15px;">
 <b><code>LAYER I · HISTORICAL CANON</code></b><br />
 Claims, chronology, source relationships, evidence classes, rights, representation rules, uncertainty, research holds, and correction boundaries.
 </td>
-<td width="33%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="33%" valign="top" style="font-size:15px;">
 <b><code>LAYER II · EDITORIAL EXPERIENCE</code></b><br />
 Narrative beats, scene composition, semantic copy, cinematic choreography, transition rules, media provenance, and visual acceptance.
 </td>
-<td width="33%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="33%" valign="top" style="font-size:15px;">
 <b><code>LAYER III · PUBLIC READING</code></b><br />
 Journey, Explore, Archive, Sources, semantic HTML, responsive motion, evidence affordances, and reader-facing historical context.
 </td>
@@ -232,31 +232,31 @@ Journey, Explore, Archive, Sources, semantic HTML, responsive motion, evidence a
 
 <table>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>HISTORY IS NOT ANIMATION DATA</code></b><br />
 Historical truth, editorial narrative, experience state, and motion are separate concerns. A claim can be corrected without rewriting choreography; motion can change without rewriting historical truth.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>UNCERTAINTY REMAINS VISIBLE</code></b><br />
 Primary records, historical facts, scholarly interpretation, tradition, folklore, and modern verified data are not interchangeable evidence classes. Research Hold and conditional status must remain visible when evidence is incomplete.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>NO SOURCELESS PUBLIC CLAIMS</code></b><br />
 The public evidence path is modeled around <code>EvidenceClaim → EvidenceLink → Source</code>, with publication gated by historical review and integrity checks.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>SEMANTIC FIRST, MOTION SECOND</code></b><br />
 The public narrative remains readable as server-rendered semantic HTML. GSAP enriches the experience; it does not own the historical facts.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>ONE PROBLEM, THEN DEPTH</code></b><br />
 The product solves one core problem deeply: make Kediri's layered historical record publicly explorable without obscuring provenance, disagreement, uncertainty, or correction paths.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>NO MAGIC WITHOUT AUDIT</code></b><br />
 A passing visual result is insufficient. Claims, media rights, module boundaries, build behavior, production HTML, production-shaped content, and motion behavior all have explicit verification paths.
 </td>
@@ -279,7 +279,7 @@ A passing visual result is insufficient. Claims, media rights, module boundaries
 <summary><b><code>LIVE TOPOLOGY // SYSTEM RELATION MAP</code></b></summary>
 
 ```mermaid
-%%{init: {"flowchart": {"htmlLabels": false, "padding": 20}, "themeVariables": {"fontFamily": "monospace", "fontSize": "11px"}}}%%
+%%{init: {"flowchart": {"htmlLabels": false, "padding": 20}, "themeVariables": {"fontFamily": "monospace", "fontSize": "10px"}}}%%
 flowchart TB
   RESEARCH["RESEARCH CORPUS"]
   EVIDENCE["EVIDENCE MODEL"]
@@ -315,7 +315,7 @@ flowchart TB
 
 <table>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>01 · HISTORICAL DOMAIN</code></b><br />
 <b>Chronology and epistemic structure</b><br />
 Defines evidence classes, confidence, historical relationships, rights, and representation policy without depending on React, Next.js, Payload, GSAP, or database implementation.
@@ -323,7 +323,7 @@ Defines evidence classes, confidence, historical relationships, rights, and repr
 <img src="https://img.shields.io/badge/FUNCTION-DOMAIN%20TRUTH-5B8CFF?style=flat-square" alt="Domain truth" /><br />
 Boundary enforced by architecture tests.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>02 · CONTENT VALIDATION</code></b><br />
 <b>Publication integrity gate</b><br />
 Validates claims, evidence links, scenes, media rights, historical integrity, and public content contracts before reviewed material becomes production-shaped output.
@@ -333,14 +333,14 @@ Designed to remain independent from presentation and CMS-specific coupling.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>03 · DESIGN SYSTEM</code></b><br />
 <b>Public presentation primitives</b><br />
 Owns the local token snapshot, typography, layout primitives, and evidence presentation without owning Kediri-specific historical entities.
 <br />
 <img src="https://img.shields.io/badge/FUNCTION-PRESENTATION-8B5CF6?style=flat-square" alt="Presentation" />
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>04 · MOTION</code></b><br />
 <b>Cinematic choreography</b><br />
 Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive choreography, reduced-motion behavior, and cleanup without owning historical truth.
@@ -356,7 +356,7 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 
 <table>
 <tr>
-<td width="33%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="33%" valign="top" style="font-size:15px;">
 <b><code>CONTENT & EVIDENCE</code></b><br />
 
 • historical-domain module<br />
@@ -366,7 +366,7 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 • reviewed production narrative<br />
 • research-hold and conditional-claim handling
 </td>
-<td width="33%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="33%" valign="top" style="font-size:15px;">
 <b><code>EXPERIENCE & MOTION</code></b><br />
 
 • Next.js App Router<br />
@@ -376,7 +376,7 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 • responsive choreography<br />
 • reduced-motion path and cleanup
 </td>
-<td width="33%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="33%" valign="top" style="font-size:15px;">
 <b><code>DATA & DELIVERY</code></b><br />
 
 • PostgreSQL 18<br />
@@ -393,7 +393,7 @@ Owns GSAP registration, ScrollTrigger/ScrollSmoother integration, responsive cho
 <summary><b><code>RUNTIME TOPOLOGY // CONTROL & DATA PLANE</code></b></summary>
 
 ```mermaid
-%%{init: {"flowchart": {"htmlLabels": false, "padding": 20}, "themeVariables": {"fontFamily": "monospace", "fontSize": "11px"}}}%%
+%%{init: {"flowchart": {"htmlLabels": false, "padding": 20}, "themeVariables": {"fontFamily": "monospace", "fontSize": "12px"}}}%%
 flowchart TB
   HUMAN["EDITOR / HISTORICAL REVIEWER"]
   CMS["PAYLOAD CMS"]
@@ -482,31 +482,31 @@ The same rule applies to uncertainty. A Research Hold is not a decorative label;
 
 <table>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>FRONTEND</code></b><br />
 Next.js 16 App Router with React 19. Public reading surfaces are server-rendered semantic HTML, with selected client-side GSAP choreography layered on top. The Journey does not require motion to carry historical meaning.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>BACKEND</code></b><br />
 Payload CMS 3 is integrated into the Next.js application with PostgreSQL storage. Repository scripts expose Payload migration, seed, type generation, and production-integrity verification commands.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>AI RUNTIME</code></b><br />
 No AI/ML runtime is declared in the application package manifests. AI-generated or reconstructed historical imagery, where used as content, is governed as interpretive media and must not be presented as authenticated historical evidence.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>DATA / DOCUMENT / INTEGRATION</code></b><br />
 PostgreSQL stores CMS-backed content. S3-compatible object storage separates public derivatives from private masters. The preserved research corpus is input material, not auto-published production truth.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>DATA & SECURITY</code></b><br />
 Environment values are defined through a variable-only <code>.env.example</code>. Secrets, private media masters, and rights documents are not intended for source control. Local clone execution uses a repository-password deterrent; the repository explicitly states that this is not encryption or DRM.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>DEPLOYMENT</code></b><br />
 The public product is configured around <code>kediri.sentrahai.com</code> and Vercel production delivery. Production credentials and deployment configuration are not stored in this repository. A production motion canary is defined separately from the main manual CI workflow.
 </td>
@@ -517,7 +517,7 @@ The public product is configured around <code>kediri.sentrahai.com</code> and Ve
 <summary><b><code>PROMOTION STATE // DEVELOPMENT → PUBLIC PRODUCTION</code></b></summary>
 
 ```mermaid
-%%{init: {"flowchart": {"htmlLabels": false, "padding": 20}, "themeVariables": {"fontFamily": "monospace", "fontSize": "11px"}}}%%
+%%{init: {"flowchart": {"htmlLabels": false, "padding": 20}, "themeVariables": {"fontFamily": "monospace", "fontSize": "12px"}}}%%
 flowchart TB
   DEV["DEVELOPMENT"]
   VERIFY["REPOSITORY VERIFICATION"]
@@ -595,42 +595,42 @@ pnpm run test:e2e:production
 
 <table width="100%">
 <tr>
-<td width="34%" style="font-size:15px; line-height:23px;">
+<td width="34%" style="font-size:15px;">
 <b>Production authority</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <a href="docs/production/00_IMPLEMENTATION_AUTHORITY.md">docs/production/00_IMPLEMENTATION_AUTHORITY.md</a> — implementation precedence, visual integrity, GSAP rules, and human approval boundary.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>Scene manifest</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <a href="docs/production/01_SCENE_MANIFEST.yaml">docs/production/01_SCENE_MANIFEST.yaml</a> — scene-to-asset mapping, evidence class, crop status, conflicts, and review readiness.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>Master narrative</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <a href="docs/production/08_MASTER_PRODUCTION_NARRATIVE.md">docs/production/08_MASTER_PRODUCTION_NARRATIVE.md</a> — canonical narrative meaning and scene order.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>Testing</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <a href="docs/testing.md">docs/testing.md</a> — Vitest, Playwright, production-motion, ports, and verification layers.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>Legal / IP</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <a href="docs/legal/">docs/legal/</a> and <a href="LICENSE">LICENSE</a> — proprietary status, contemplated economic-rights assignment, third-party materials, and handover context.
 </td>
 </tr>
@@ -655,50 +655,50 @@ No expansion without one solved problem first.
 
 <table>
 <tr>
-<th align="left" style="font-size:15px; line-height:23px;">
+<th align="left" style="font-size:15px;">
 Interrogation
 </th>
-<th align="left" style="font-size:15px; line-height:23px;">
+<th align="left" style="font-size:15px;">
 Required answer
 </th>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>What specific problem does this solve?</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 Make Kediri's layered historical record publicly readable and cinematic while preserving provenance, evidence classes, uncertainty, research holds, rights boundaries, and correction paths.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>Who is the human reviewer or accountable operator?</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 Chief / designated historical reviewer. Production authority reserves final approval to the human reviewer. Architect: dr. Ferdi Iskandar. Co-Architect: dr. Novia Dwi Anggraini.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>What is outside the scope?</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 Institutional endorsement, automatic historical certification, source-less certainty, rights-cleared status for every external asset, or transfer of ownership merely by repository publication.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>What can fail?</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 Historical-integrity checks, evidence linkage, rights boundaries, CMS data readiness, media provenance, build output, client motion, reduced-motion behavior, deployment configuration, or human review.
 </td>
 </tr>
 <tr>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 <b>How is it verified?</b>
 </td>
-<td style="font-size:15px; line-height:23px;">
+<td style="font-size:15px;">
 Biome, TypeScript, Vitest, architecture-boundary tests, historical-integrity tests, webpack production build, static journey checks, Payload verification, Playwright dev/production evidence, and deploy dry-run.
 </td>
 </tr>
@@ -731,13 +731,13 @@ The repository is expected to remain explicit about architecture contracts, revi
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/DIVISION-SENTRA%20PRODUCT%20DOMAIN-22D3EE?style=flat-square" alt="Sentra Product Domain" />
 <br />
 <b><code>SENTRA ARTIFICIAL INTELLIGENCE · PRODUCT DOMAIN</code></b><br />
 The repository contract classifies this product under <code>product/kediri-history</code>. Its operating domain is cultural heritage, historical publishing, and public digital experience.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/PRODUCT-KEDIRI%20HISTORY-8B5CF6?style=flat-square" alt="Kediri History" />
 <br />
 <b><code>KEDIRI — A LIVING CIVILIZATION</code></b><br />
@@ -777,41 +777,41 @@ The repository also records a contemplated **Full Assignment of Economic Rights*
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>Node.js 24 · pnpm 11.21.0</code></b><br />
 Capsule runtime and package-manager contract.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>Next.js 16 · React 19</code></b><br />
 Public application, App Router, server rendering, and client experience layer.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>Payload CMS 3 · PostgreSQL 18</code></b><br />
 Editorial content model, migrations, reviewed data, and persistence.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>S3-compatible storage · MinIO</code></b><br />
 Public derivatives and private master storage with separate local buckets.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>GSAP 3 · ScrollTrigger · ScrollSmoother</code></b><br />
 Journey choreography, responsive motion, reduced-motion behavior, and production motion instrumentation.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>Biome · TypeScript · Vitest · Playwright</code></b><br />
 Static analysis, type contracts, unit/architecture checks, and browser evidence.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>Docker Compose</code></b><br />
 Capsule-owned local PostgreSQL and MinIO development infrastructure.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <b><code>Vercel</code></b><br />
 Public deployment context for the canonical site; deployment credentials remain external.
 </td>
@@ -826,13 +826,13 @@ Public deployment context for the canonical site; deployment credentials remain 
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/01-LANGUAGES%20%26%20RUNTIMES-5B8CFF?style=flat-square" alt="Languages & Runtimes" />
 
 <b><code>LANGUAGES & RUNTIMES</code></b><br />
 TypeScript · JavaScript/Node.js 24 · YAML · Markdown · SQL through Payload/PostgreSQL migrations.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/02-FRONTEND%20%26%20UI-22D3EE?style=flat-square" alt="Frontend & UI" />
 
 <b><code>FRONTEND & UI</code></b><br />
@@ -840,13 +840,13 @@ Next.js 16 App Router · React 19 · semantic server-rendered HTML · GSAP motio
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/03-BACKEND%20%26%20API-14B8A6?style=flat-square" alt="Backend & API" />
 
 <b><code>BACKEND & API</code></b><br />
 Payload CMS 3 · Next.js server data layer · Payload routes/admin integration · repository Payload CLI wrappers.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/04-AI%20%C2%B7%20ML%20%C2%B7%20AUTOMATION-8B5CF6?style=flat-square" alt="AI ML Automation" />
 
 <b><code>AI · ML · AUTOMATION</code></b><br />
@@ -854,13 +854,13 @@ No AI/ML runtime declared. Historical imagery may be reconstructed/generated onl
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/05-DATABASE%20%26%20STORAGE-0EA5E9?style=flat-square" alt="Database & Storage" />
 
 <b><code>DATABASE & STORAGE</code></b><br />
 PostgreSQL 18 · Payload PostgreSQL adapter · S3-compatible storage · MinIO local service · public/private bucket separation.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/06-DEVOPS%20%C2%B7%20CLOUD%20%C2%B7%20INFRA-F59E0B?style=flat-square" alt="DevOps Cloud Infra" />
 
 <b><code>DEVOPS · CLOUD · INFRA</code></b><br />
@@ -868,13 +868,13 @@ pnpm workspace · Docker Compose · GitHub Actions workflow contracts · Vercel 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/07-TESTING%20%26%20QA-10B981?style=flat-square" alt="Testing & QA" />
 
 <b><code>TESTING & QA</code></b><br />
 Biome · TypeScript · Vitest · module-boundary tests · historical-integrity tests · Playwright desktop/mobile/production motion · static production journey check.
 </td>
-<td width="50%" valign="top" style="font-size:15px; line-height:23px;">
+<td width="50%" valign="top" style="font-size:15px;">
 <img src="https://img.shields.io/badge/08-SECURITY%20%26%20GOVERNANCE-EB5939?style=flat-square" alt="Security & Governance" />
 
 <b><code>SECURITY & GOVERNANCE</code></b><br />
