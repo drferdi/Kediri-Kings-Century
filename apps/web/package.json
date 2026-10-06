@@ -18,7 +18,7 @@
     "e2e:production:built": "playwright test --config playwright.production.config.ts"
   },
   "dependencies": {
-    "@faceless-ui/modal": "3.0.0",
+    "@faceless-ui/modal": "3.0.1",
     "@faceless-ui/scroll-info": "2.0.0",
     "@gsap/react": "2.1.2",
     "@payloadcms/db-postgres": "3.88.0",
