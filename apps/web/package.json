@@ -24,7 +24,7 @@
     "@payloadcms/db-postgres": "3.88.0",
     "@payloadcms/next": "3.88.0",
     "@payloadcms/richtext-lexical": "3.88.0",
-    "@payloadcms/storage-s3": "3.88.0",
+    "@payloadcms/storage-s3": "3.90.2",
     "@t3-oss/env-nextjs": "0.13.8",
     "graphql": "16.14.2",
     "gsap": "3.15.0",
