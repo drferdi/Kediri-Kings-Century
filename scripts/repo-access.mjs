@@ -8,32 +8,25 @@
  * download requires repository-level access control (for example a private
  * GitHub repository).
  *
- * The real password is never stored in Git. Only a PBKDF2-SHA256 verifier is
- * committed. Official GitHub Actions and Vercel automation bypass the local
+ * The real password is never stored in Git. Only a SHA-256 verifier for a
+ * high-entropy password is committed. Official GitHub Actions and Vercel
+ * automation bypass the local
  * prompt so CI/deployments remain non-interactive.
  */
 import { existsSync } from "node:fs";
-import { pbkdf2Sync, timingSafeEqual } from "node:crypto";
+import { createHash, timingSafeEqual } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
 const ROOT = fileURLToPath(new URL("../", import.meta.url));
 
 export const ACCESS_POLICY = Object.freeze({
-  algorithm: "pbkdf2-sha256",
-  iterations: 310000,
-  saltHex: "b02d5566f0fef28fe372297b5fbee253",
-  hashHex: "27d146bb3c1d0d1935a466a4d3b350fbdfed924fc620b1a39a5ffb64791f1fc0",
+  algorithm: "sha256",
+  hashHex: "526f6c4a98e8ec469ecd3b18c7f1873e7f9c6121a9a42117509e95140455986b",
 });
 
-export function deriveRepositoryPasswordHash(password, policy = ACCESS_POLICY) {
-  return pbkdf2Sync(
-    password,
-    Buffer.from(policy.saltHex, "hex"),
-    policy.iterations,
-    32,
-    "sha256",
-  );
+export function deriveRepositoryPasswordHash(password) {
+  return createHash("sha256").update(password, "utf8").digest();
 }
 
 export function verifyRepositoryPassword(password, policy = ACCESS_POLICY) {
