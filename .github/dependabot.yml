@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    ignore:
+      # No patched release on npm yet (latest 3.0.3); transitive via chokidar/micromatch.
+      - dependency-name: braces
+  - package-ecosystem: npm
+    directory: /apps/web
+    schedule:
+      interval: weekly
+    ignore:
+      - dependency-name: braces
