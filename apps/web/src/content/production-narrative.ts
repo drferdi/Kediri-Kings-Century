@@ -164,7 +164,7 @@ const EDITORIAL_DRAFT_STATUS = PUBLIC_EVIDENCE_LANGUAGE.editorialDraft;
 function scene(input: SceneInput): SceneDto {
   const expectedPath =
     input.imagePath ??
-    `/api/editorial-preview/${String(input.order).padStart(2, "0")}-${input.slug}.webp`;
+    `/journey-approved/${String(input.order).padStart(2, "0")}-${input.slug}.webp`;
   return {
     id: `production-${input.slug}`,
     slug: input.slug,
@@ -893,8 +893,14 @@ const PREVIEW_PATH_PREFIX = "/api/editorial-preview/";
 export function editorialPreviewAssetNames(): ReadonlySet<string> {
   const names = new Set<string>();
   const add = (path: string | undefined): void => {
-    if (!path?.startsWith(PREVIEW_PATH_PREFIX)) return;
-    const filename = path.slice(PREVIEW_PATH_PREFIX.length);
+    if (!path) return;
+    const approvedPrefix = "/journey-approved/";
+    const filename = path.startsWith(PREVIEW_PATH_PREFIX)
+      ? path.slice(PREVIEW_PATH_PREFIX.length)
+      : path.startsWith(approvedPrefix)
+        ? path.slice(approvedPrefix.length)
+        : undefined;
+    if (!filename) return;
     names.add(filename);
     names.add(filename.replace(/\.webp$/u, "-w768.webp"));
   };
