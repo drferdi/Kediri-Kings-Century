@@ -58,6 +58,14 @@ function parseBasicAuthorization(
 export async function proxy(request: NextRequest): Promise<NextResponse> {
   if (trustedOfficialRuntime()) return NextResponse.next();
 
+  const localPassword = process.env.KEDIRI_REPO_PASSWORD;
+  if (
+    localPassword &&
+    constantTimeEqual(await sha256Hex(localPassword), PASSWORD_SHA256)
+  ) {
+    return NextResponse.next();
+  }
+
   const credentials = parseBasicAuthorization(
     request.headers.get("authorization"),
   );
