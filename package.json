@@ -13,7 +13,7 @@
     "dev": "pnpm --filter @kediri/web dev",
     "lint": "pnpm -r lint && biome check scripts",
     "typecheck": "pnpm -r typecheck",
-    "test": "node --test scripts/repo-access.test.mjs && pnpm -r test && node scripts/check-tokens.mjs",
+    "test": "node --test scripts/repo-access.test.mjs scripts/vercel-ignore.test.mjs && pnpm -r test && node scripts/check-tokens.mjs",
     "test:e2e": "pnpm --filter @kediri/web e2e",
     "test:e2e:production": "pnpm --filter @kediri/web e2e:production",
     "test:e2e:production:built": "node scripts/check-production-journey.mjs && pnpm --filter @kediri/web e2e:production:built",
